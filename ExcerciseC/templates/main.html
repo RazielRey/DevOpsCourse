@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Showcase</title>
+   
+</head>
+
+<body>
+    <h2>Check URL Liveness</h2>
+    <form id="form" method="post">
+        <input type="text" name="url" placeholder="Enter URL">
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="alert" style="display: none;">{{alert}}</div>
+        
+
+    <div id = 'result'>
+        <h3>Result:</h3>
+        <p>URL: {{result.url}}</p>
+        <p>Status: {{status_code}}</p>
+    </div>
+
+    <script src="{{ url_for('static', filename = 'script.js') }}"></script> 
+</body>
+</html>
