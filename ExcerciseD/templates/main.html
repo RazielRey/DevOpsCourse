@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion Tool</title>
+</head>
+
+<body>
+    <h2>Temperature Conversion Tool</h2>
+    <form id="form" method="post">
+        <input type="text" name="original_deg" placeholder="Enter Temperature">
+        <button type="submit">Convert To Fahrenheit</button>
+    </form>
+
+    <div id="alert" style="display: none;">{{alert}}</div>
+
+    <div id="converted_deg">
+        <p>Temperature in Fahrenheit: {{converted_deg}} °F</p>
+    </div>
+
+
+    <script src="{{ url_for('static', filename = 'script.js') }}"></script> 
+</body>
+</html>
