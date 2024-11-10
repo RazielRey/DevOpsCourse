@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>  
+    <meta charset="UTF-8">        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <title>HTML Elements Showcase</title>        
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">        
+</head>
+
+<body>
+   <div class = "Calculator"
+    <h2>Simple Calculator</h2>
+    <form action = "{{ '/'}}" method = "POST">
+        <input type = "text" name = "num1" placeholder = "Enter first number">
+        <input type = "text" name = "num2" placeholder = "Enter second number">
+       <select name = "operation">
+            <option value = "add">Add</option>
+            <option value = "subtract">Subtract</option>
+            <option value = "multiply">Multiply</option>
+            <option value = "divide">Divide</option>
+        </select>
+        <button type = "submit">Calculate</button>
+
+
+    </form>
+    </div>
+
+    <div id = "result">
+        {% if result %}
+            <h3>Result: {{ result }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
+
+
+
