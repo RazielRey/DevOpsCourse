@@ -1,0 +1,249 @@
+[2024-11-10 17:27:58,636 - _internal.py:97, Function: _log] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.9:8080
+[2024-11-10 17:27:58,638 - _internal.py:97, Function: _log] INFO - [33mPress CTRL+C to quit[0m
+[2024-11-10 17:27:58,640 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:27:59,316 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:27:59,319 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:28:00,823 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:28:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2024-11-10 17:28:00,920 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:28:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-11-10 17:28:00,921 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:28:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-11-10 17:28:00,952 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:28:00] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=j3sIAnKtsJbV3infTNhu HTTP/1.1" 200 -
+[2024-11-10 17:28:01,146 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:28:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-11-10 17:28:01,711 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:28:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2024-11-10 17:28:01,725 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:28:01] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-11-10 17:28:01,727 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:28:01] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-11-10 17:28:01,750 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:28:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=j3sIAnKtsJbV3infTNhu HTTP/1.1[0m" 304 -
+[2024-11-10 17:28:01,873 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:28:01] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-11-10 17:31:03,263 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-10 17:31:03,394 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:31:05,317 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:31:05,320 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:31:08,365 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-10 17:31:08,507 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:31:10,334 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:31:10,337 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:31:11,808 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:31:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2024-11-10 17:31:12,024 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:31:12] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-11-10 17:31:12,026 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:31:12] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-11-10 17:31:12,092 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:31:12] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=KPDG16wGzUq8Ad9DvH6H HTTP/1.1" 200 -
+[2024-11-10 17:31:12,258 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:31:12] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-11-10 17:31:46,708 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-10 17:31:46,807 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:31:48,117 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:31:48,121 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:31:50,168 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-10 17:31:50,357 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:31:52,213 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:31:52,219 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:31:53,252 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-10 17:31:53,482 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:31:55,275 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:31:55,278 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:31:58,319 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-10 17:31:58,463 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:32:00,216 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:32:00,219 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:32:02,259 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-10 17:32:02,343 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:32:04,208 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:32:04,212 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:32:05,258 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-10 17:32:05,374 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:32:07,392 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:32:07,396 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:32:07,532 - app.py:10, Function: main] DEBUG - main() called
+[2024-11-10 17:32:07,554 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2024-11-10 17:32:07,772 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-11-10 17:32:07,775 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-11-10 17:32:07,827 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:07] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=gkqtuCLi00jpU3RcSAx1 HTTP/1.1" 200 -
+[2024-11-10 17:32:08,051 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-11-10 17:32:37,655 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-10 17:32:37,786 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:32:39,159 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:32:39,166 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:32:43,208 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-10 17:32:43,382 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:32:45,331 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:32:45,335 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:32:46,064 - app.py:10, Function: main] DEBUG - main() called
+[2024-11-10 17:32:46,070 - app.py:12, Function: main] DEBUG - email: None
+[2024-11-10 17:32:46,089 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2024-11-10 17:32:46,307 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-11-10 17:32:46,318 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-11-10 17:32:46,405 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:46] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=m54N2EjKzlraly2gprNb HTTP/1.1" 200 -
+[2024-11-10 17:32:46,642 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-11-10 17:32:54,219 - _internal.py:97, Function: _log] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.9:8080
+[2024-11-10 17:32:54,220 - _internal.py:97, Function: _log] INFO - [33mPress CTRL+C to quit[0m
+[2024-11-10 17:32:54,223 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:32:56,347 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:32:56,350 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:32:56,368 - app.py:10, Function: main] DEBUG - main() called
+[2024-11-10 17:32:56,371 - app.py:12, Function: main] DEBUG - email: None
+[2024-11-10 17:32:56,383 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2024-11-10 17:32:56,585 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-11-10 17:32:56,588 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:56] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-11-10 17:32:56,637 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:56] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=wXX1y9Xchr7nFEPs9wn2 HTTP/1.1" 200 -
+[2024-11-10 17:32:56,795 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:32:56] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-11-10 17:33:44,822 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-10 17:33:45,079 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:33:46,340 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:33:46,343 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:34:00,472 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-10 17:34:00,678 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:34:23,464 - _internal.py:97, Function: _log] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.9:8080
+[2024-11-10 17:34:23,465 - _internal.py:97, Function: _log] INFO - [33mPress CTRL+C to quit[0m
+[2024-11-10 17:34:23,470 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:34:25,654 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:34:25,658 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:34:28,693 - app.py:10, Function: main] DEBUG - main() called
+[2024-11-10 17:34:28,698 - app.py:12, Function: main] DEBUG - email: None
+[2024-11-10 17:34:28,698 - app.py:16, Function: main] ERROR - Invalid email
+[2024-11-10 17:34:28,718 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:34:28] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[2024-11-10 17:34:28,918 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:34:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-11-10 17:34:28,935 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:34:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-11-10 17:34:29,071 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:34:29] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=4ID9Ri1aIvLeyVyhJqKB HTTP/1.1" 200 -
+[2024-11-10 17:34:29,286 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:34:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-11-10 17:35:08,076 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-10 17:35:08,191 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-10 17:35:10,137 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-10 17:35:10,144 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-10 17:35:10,387 - app.py:10, Function: main] DEBUG - main() called
+[2024-11-10 17:35:10,390 - app.py:12, Function: main] DEBUG - email: None
+[2024-11-10 17:35:10,390 - app.py:16, Function: main] ERROR - Invalid email
+[2024-11-10 17:35:10,396 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:35:10] "GET / HTTP/1.1" 200 -
+[2024-11-10 17:35:28,822 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [10/Nov/2024 17:35:28] "[33mPOST /submit.php HTTP/1.1[0m" 404 -
+[2024-11-11 10:52:33,837 - _internal.py:97, Function: _log] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.9:8080
+[2024-11-11 10:52:33,838 - _internal.py:97, Function: _log] INFO - [33mPress CTRL+C to quit[0m
+[2024-11-11 10:52:33,840 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 10:52:35,327 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-11 10:52:35,334 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-11 10:52:39,386 - app.py:13, Function: main] DEBUG - main() called
+[2024-11-11 10:52:39,392 - app.py:17, Function: main] ERROR - Invalid email
+[2024-11-11 10:52:39,456 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 10:52:39] "GET / HTTP/1.1" 200 -
+[2024-11-11 10:54:49,192 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 10:54:49] "[33mPOST /submit.php HTTP/1.1[0m" 404 -
+[2024-11-11 10:55:18,186 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 10:55:18] "[33mPOST /submit.php HTTP/1.1[0m" 404 -
+[2024-11-11 10:55:54,541 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-11 10:55:54,610 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 10:55:55,548 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-11 10:55:55,550 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-11 10:55:57,569 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-11 10:55:57,631 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 10:56:55,046 - _internal.py:97, Function: _log] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.9:8080
+[2024-11-11 10:56:55,048 - _internal.py:97, Function: _log] INFO - [33mPress CTRL+C to quit[0m
+[2024-11-11 10:56:55,054 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 10:56:56,464 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-11 10:56:56,472 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-11 10:57:00,027 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 10:57:00] "[33mPOST /submit.php HTTP/1.1[0m" 404 -
+[2024-11-11 10:57:04,063 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 10:57:04] "[33mPOST /submit.php HTTP/1.1[0m" 404 -
+[2024-11-11 10:58:09,151 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 10:58:09] "[33mGET /submi HTTP/1.1[0m" 404 -
+[2024-11-11 10:58:14,927 - app.py:27, Function: submit] DEBUG - submit() called
+[2024-11-11 10:58:14,933 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 10:58:14] "[35m[1mGET /submit HTTP/1.1[0m" 500 -
+[2024-11-11 10:58:15,180 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 10:58:15] "GET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-11-11 10:58:15,208 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 10:58:15] "GET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-11-11 10:58:15,305 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 10:58:15] "GET /submit?__debugger__=yes&cmd=resource&f=console.png&s=sxOtu1Usm0U5pUi0JMyo HTTP/1.1" 200 -
+[2024-11-11 10:58:15,453 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 10:58:15] "GET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-11-11 11:04:32,993 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-11 11:04:33,113 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 11:05:21,304 - _internal.py:97, Function: _log] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.9:8080
+[2024-11-11 11:05:21,332 - _internal.py:97, Function: _log] INFO - [33mPress CTRL+C to quit[0m
+[2024-11-11 11:05:21,335 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 11:05:22,793 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-11 11:05:22,796 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-11 11:05:24,424 - app.py:30, Function: submit] DEBUG - submit() called
+[2024-11-11 11:05:24,433 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:05:24] "[35m[1mGET /submit HTTP/1.1[0m" 500 -
+[2024-11-11 11:05:24,589 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:05:24] "[36mGET /submit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-11-11 11:05:24,599 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:05:24] "[36mGET /submit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-11-11 11:05:24,701 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:05:24] "GET /submit?__debugger__=yes&cmd=resource&f=console.png&s=n2cnkA4d5BEAwVacpUXM HTTP/1.1" 200 -
+[2024-11-11 11:05:24,837 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:05:24] "[36mGET /submit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2024-11-11 11:05:27,257 - app.py:13, Function: main] DEBUG - main() called
+[2024-11-11 11:05:27,260 - app.py:17, Function: main] ERROR - Invalid email
+[2024-11-11 11:05:27,266 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:05:27] "GET / HTTP/1.1" 200 -
+[2024-11-11 11:05:44,882 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:05:44] "[33mPOST /submit.php HTTP/1.1[0m" 404 -
+[2024-11-11 11:07:38,805 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:07:38] "[33mPOST /submit.php HTTP/1.1[0m" 404 -
+[2024-11-11 11:07:43,166 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:07:43] "[33mPOST /submit.php HTTP/1.1[0m" 404 -
+[2024-11-11 11:07:57,096 - _internal.py:97, Function: _log] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.9:8080
+[2024-11-11 11:07:57,099 - _internal.py:97, Function: _log] INFO - [33mPress CTRL+C to quit[0m
+[2024-11-11 11:07:57,104 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 11:07:58,942 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-11 11:07:58,945 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-11 11:08:00,127 - app.py:13, Function: main] DEBUG - main() called
+[2024-11-11 11:08:00,129 - app.py:17, Function: main] ERROR - Invalid email
+[2024-11-11 11:08:00,133 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:08:00] "GET / HTTP/1.1" 200 -
+[2024-11-11 11:08:09,790 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:08:09] "[31m[1mPOST /submit HTTP/1.1[0m" 405 -
+[2024-11-11 11:10:34,865 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-11 11:10:34,928 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 11:10:35,998 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-11 11:10:36,003 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-11 11:11:16,974 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:11:16] "[33mPOST /submit HTTP/1.1[0m" 404 -
+[2024-11-11 11:11:20,685 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:11:20] "[33mPOST /submit HTTP/1.1[0m" 404 -
+[2024-11-11 11:11:23,290 - app.py:13, Function: main] DEBUG - main() called
+[2024-11-11 11:11:23,291 - app.py:17, Function: main] ERROR - Invalid email
+[2024-11-11 11:11:23,295 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:11:23] "GET / HTTP/1.1" 200 -
+[2024-11-11 11:11:29,830 - app.py:13, Function: main] DEBUG - main() called
+[2024-11-11 11:11:29,833 - app.py:17, Function: main] ERROR - Invalid email
+[2024-11-11 11:11:29,836 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:11:29] "GET / HTTP/1.1" 200 -
+[2024-11-11 11:11:44,512 - app.py:13, Function: main] DEBUG - main() called
+[2024-11-11 11:11:44,517 - app.py:21, Function: main] INFO - Valid email: raziel@raziel.com
+[2024-11-11 11:11:44,518 - app.py:22, Function: main] DEBUG - Writing email to file: raziel@raziel.com
+[2024-11-11 11:11:44,530 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:11:44] "POST / HTTP/1.1" 200 -
+[2024-11-11 11:14:19,277 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-11 11:14:19,363 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 11:14:20,612 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-11 11:14:20,614 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-11 11:14:22,634 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-11 11:14:22,692 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 11:14:23,774 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-11 11:14:23,776 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-11 11:15:24,085 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-11 11:15:24,170 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 11:15:25,388 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-11 11:15:25,390 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-11 11:15:32,437 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-11 11:15:32,492 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 11:16:42,925 - _internal.py:97, Function: _log] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.9:8080
+[2024-11-11 11:16:42,926 - _internal.py:97, Function: _log] INFO - [33mPress CTRL+C to quit[0m
+[2024-11-11 11:16:42,931 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 11:16:44,801 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-11 11:16:44,810 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-11 11:16:48,619 - app.py:13, Function: main] DEBUG - main() called
+[2024-11-11 11:16:48,625 - app.py:18, Function: main] ERROR - Invalid email
+[2024-11-11 11:16:48,629 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:16:48] "GET / HTTP/1.1" 200 -
+[2024-11-11 11:17:10,697 - app.py:13, Function: main] DEBUG - main() called
+[2024-11-11 11:17:10,700 - app.py:21, Function: main] DEBUG - Email: wer@ff.com
+[2024-11-11 11:17:10,701 - app.py:23, Function: main] DEBUG - Writing email to file: wer@ff.com
+[2024-11-11 11:17:10,704 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:17:10] "POST / HTTP/1.1" 200 -
+[2024-11-11 11:18:19,388 - _internal.py:97, Function: _log] INFO -  * Detected change in 'C:\\Users\\razie\\DevOps\\Lesson11\\ExcerciseF\\app.py', reloading
+[2024-11-11 11:18:19,516 - _internal.py:97, Function: _log] INFO -  * Restarting with stat
+[2024-11-11 11:18:21,355 - _internal.py:97, Function: _log] WARNING -  * Debugger is active!
+[2024-11-11 11:18:21,358 - _internal.py:97, Function: _log] INFO -  * Debugger PIN: 105-106-768
+[2024-11-11 11:18:24,673 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:18:24] "[33mPOST /submit HTTP/1.1[0m" 404 -
+[2024-11-11 11:18:27,061 - app.py:13, Function: main] DEBUG - main() called
+[2024-11-11 11:18:27,064 - app.py:18, Function: main] ERROR - Invalid email
+[2024-11-11 11:18:27,072 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:18:27] "GET / HTTP/1.1" 200 -
+[2024-11-11 11:18:43,330 - app.py:13, Function: main] DEBUG - main() called
+[2024-11-11 11:18:43,332 - app.py:21, Function: main] DEBUG - Email: sdfdsf@fdsf.com
+[2024-11-11 11:18:43,333 - app.py:23, Function: main] DEBUG - Writing email to file: sdfdsf@fdsf.com
+[2024-11-11 11:18:43,336 - _internal.py:97, Function: _log] INFO - 127.0.0.1 - - [11/Nov/2024 11:18:43] "POST / HTTP/1.1" 200 -
