@@ -1,0 +1,1302 @@
+2024-11-25 15:04:45 - INFO - Creating new users.json file
+2024-11-25 15:04:45 - INFO - users.json created successfully
+2024-11-25 15:04:45 - WARNING - Failed login attempt - User not found: raziel
+2024-11-25 15:04:53 - INFO - New regular user registered: raziel
+2024-11-25 15:04:59 - INFO - Successful regular login for user: raziel
+2024-11-25 15:22:37 - INFO - Successful regular login for user: raziel
+2024-11-25 15:22:52 - INFO - Starting multi-threaded check for 1 URLs
+2024-11-25 15:22:52 - INFO - Valid SSL certificate found for google.com
+2024-11-25 15:22:52 - INFO - URL check successful for google.com
+2024-11-25 15:22:52 - INFO - Completed checking 1 URLs
+2024-11-25 15:23:02 - INFO - Starting multi-threaded check for 1 URLs
+2024-11-25 15:23:02 - INFO - Valid SSL certificate found for youtube.com
+2024-11-25 15:23:02 - INFO - URL check successful for youtube.com
+2024-11-25 15:23:02 - INFO - Completed checking 1 URLs
+2024-11-25 15:23:40 - INFO - User logged out: raziel
+2024-11-25 15:23:45 - INFO - Successful regular login for user: raziel
+2024-11-25 16:09:30 - INFO - Successful regular login for user: raziel
+2024-11-25 16:34:49 - INFO - Successful regular login for user: raziel
+2024-11-25 19:03:25 - INFO - Successful regular login for user: raziel
+2024-11-25 19:17:19 - INFO - Successful regular login for user: raziel
+2024-11-25 19:17:28 - INFO - Starting multi-threaded URL check for user: raziel, number of domains: 120
+2024-11-25 19:17:28 - INFO - Submitting tasks to ThreadPoolExecutor
+2024-11-25 19:17:28 - INFO - Valid SSL certificate found for youtube.com
+2024-11-25 19:17:28 - INFO - Valid SSL certificate found for linkedin.com
+2024-11-25 19:17:28 - INFO - Valid SSL certificate found for instagram.com
+2024-11-25 19:17:28 - INFO - Valid SSL certificate found for twitter.com
+2024-11-25 19:17:28 - INFO - Valid SSL certificate found for google.com
+2024-11-25 19:17:28 - INFO - Valid SSL certificate found for googletagmanager.com
+2024-11-25 19:17:28 - INFO - Valid SSL certificate found for facebook.com
+2024-11-25 19:17:28 - INFO - Valid SSL certificate found for apple.com
+2024-11-25 19:17:28 - INFO - Valid SSL certificate found for youtu.be
+2024-11-25 19:17:28 - INFO - Valid SSL certificate found for microsoft.com
+2024-11-25 19:17:28 - INFO - Valid SSL certificate found for wikipedia.org
+2024-11-25 19:17:28 - INFO - Valid SSL certificate found for github.com
+2024-11-25 19:17:29 - INFO - Valid SSL certificate found for en.wikipedia.org
+2024-11-25 19:17:29 - WARNING - URL check failed for googletagmanager.com with status code: 404
+2024-11-25 19:17:29 - INFO - Valid SSL certificate found for play.google.com
+2024-11-25 19:17:29 - INFO - Valid SSL certificate found for pinterest.com
+2024-11-25 19:17:29 - INFO - Valid SSL certificate found for goo.gl
+2024-11-25 19:17:29 - INFO - Valid SSL certificate found for maps.google.com
+2024-11-25 19:17:29 - INFO - Valid SSL certificate found for wordpress.org
+2024-11-25 19:17:29 - INFO - URL check successful for github.com
+2024-11-25 19:17:29 - INFO - Valid SSL certificate found for docs.google.com
+2024-11-25 19:17:29 - INFO - Valid SSL certificate found for bit.ly
+2024-11-25 19:17:29 - INFO - Valid SSL certificate found for vimeo.com
+2024-11-25 19:17:29 - INFO - Valid SSL certificate found for apps.apple.com
+2024-11-25 19:17:29 - INFO - URL check successful for youtube.com
+2024-11-25 19:17:29 - INFO - URL check successful for apple.com
+2024-11-25 19:17:29 - INFO - Valid SSL certificate found for adobe.com
+2024-11-25 19:17:29 - INFO - URL check successful for en.wikipedia.org
+2024-11-25 19:17:29 - INFO - URL check successful for twitter.com
+2024-11-25 19:17:29 - INFO - URL check successful for google.com
+2024-11-25 19:17:29 - INFO - URL check successful for linkedin.com
+2024-11-25 19:17:29 - INFO - URL check successful for instagram.com
+2024-11-25 19:17:29 - INFO - Valid SSL certificate found for wordpress.com
+2024-11-25 19:17:29 - INFO - URL check successful for facebook.com
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for plus.google.com
+2024-11-25 19:17:30 - INFO - URL check successful for pinterest.com
+2024-11-25 19:17:30 - INFO - URL check successful for adobe.com
+2024-11-25 19:17:30 - INFO - URL check successful for bit.ly
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for amazon.com
+2024-11-25 19:17:30 - ERROR - HTTP Request error for microsoft.com: HTTPConnectionPool(host='microsoft.com', port=80): Read timed out. (read timeout=1)
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for player.vimeo.com
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for whatsapp.com
+2024-11-25 19:17:30 - INFO - URL check successful for youtu.be
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for blogspot.com
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for drive.google.com
+2024-11-25 19:17:30 - INFO - URL check successful for maps.google.com
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for mozilla.org
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for api.whatsapp.com
+2024-11-25 19:17:30 - INFO - URL check successful for vimeo.com
+2024-11-25 19:17:30 - INFO - URL check successful for wordpress.org
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for itunes.apple.com
+2024-11-25 19:17:30 - WARNING - URL check failed for api.whatsapp.com with status code: 403
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for x.com
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for tiktok.com
+2024-11-25 19:17:30 - INFO - URL check successful for docs.google.com
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for policies.google.com
+2024-11-25 19:17:30 - INFO - URL check successful for play.google.com
+2024-11-25 19:17:30 - INFO - URL check successful for plus.google.com
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for wa.me
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for reddit.com
+2024-11-25 19:17:30 - INFO - URL check successful for apps.apple.com
+2024-11-25 19:17:30 - INFO - URL check successful for wikipedia.org
+2024-11-25 19:17:30 - INFO - Valid SSL certificate found for tumblr.com
+2024-11-25 19:17:31 - INFO - URL check successful for tiktok.com
+2024-11-25 19:17:31 - INFO - URL check successful for x.com
+2024-11-25 19:17:31 - INFO - Valid SSL certificate found for t.me
+2024-11-25 19:17:31 - INFO - URL check successful for wordpress.com
+2024-11-25 19:17:31 - INFO - URL check successful for player.vimeo.com
+2024-11-25 19:17:31 - INFO - URL check successful for goo.gl
+2024-11-25 19:17:31 - WARNING - URL check failed for amazon.com with status code: 503
+2024-11-25 19:17:31 - INFO - Valid SSL certificate found for github.io
+2024-11-25 19:17:31 - INFO - URL check successful for whatsapp.com
+2024-11-25 19:17:31 - INFO - URL check successful for policies.google.com
+2024-11-25 19:17:31 - INFO - Valid SSL certificate found for gravatar.com
+2024-11-25 19:17:31 - INFO - Valid SSL certificate found for forms.gle
+2024-11-25 19:17:31 - INFO - Valid SSL certificate found for europa.eu
+2024-11-25 19:17:31 - INFO - URL check successful for drive.google.com
+2024-11-25 19:17:31 - INFO - Valid SSL certificate found for cloudflare.com
+2024-11-25 19:17:31 - INFO - Valid SSL certificate found for apache.org
+2024-11-25 19:17:31 - INFO - URL check successful for blogspot.com
+2024-11-25 19:17:31 - INFO - URL check successful for itunes.apple.com
+2024-11-25 19:17:31 - INFO - Valid SSL certificate found for spotify.com
+2024-11-25 19:17:31 - INFO - Valid SSL certificate found for flickr.com
+2024-11-25 19:17:31 - INFO - URL check successful for wa.me
+2024-11-25 19:17:31 - WARNING - URL check failed for forms.gle with status code: 400
+2024-11-25 19:17:31 - INFO - Valid SSL certificate found for nytimes.com
+2024-11-25 19:17:31 - INFO - URL check successful for cloudflare.com
+2024-11-25 19:17:31 - INFO - Valid SSL certificate found for nih.gov
+2024-11-25 19:17:32 - INFO - URL check successful for t.me
+2024-11-25 19:17:32 - INFO - Valid SSL certificate found for yahoo.com
+2024-11-25 19:17:32 - INFO - URL check successful for github.io
+2024-11-25 19:17:32 - INFO - URL check successful for apache.org
+2024-11-25 19:17:32 - INFO - Valid SSL certificate found for sites.google.com
+2024-11-25 19:17:32 - INFO - URL check successful for mozilla.org
+2024-11-25 19:17:32 - INFO - URL check successful for tumblr.com
+2024-11-25 19:17:32 - ERROR - SSL check error for miit.gov.cn: [Errno 11001] getaddrinfo failed
+2024-11-25 19:17:32 - ERROR - HTTP Request error for miit.gov.cn: HTTPConnectionPool(host='miit.gov.cn', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000178E0E50590>: Failed to resolve 'miit.gov.cn' ([Errno 11001] getaddrinfo failed)"))
+2024-11-25 19:17:32 - INFO - Valid SSL certificate found for ec.europa.eu
+2024-11-25 19:17:32 - INFO - Valid SSL certificate found for maps.app.goo.gl
+2024-11-25 19:17:32 - INFO - URL check successful for reddit.com
+2024-11-25 19:17:32 - ERROR - HTTP Request error for nih.gov: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-25 19:17:32 - INFO - Valid SSL certificate found for qq.com
+2024-11-25 19:17:32 - INFO - Valid SSL certificate found for open.spotify.com
+2024-11-25 19:17:32 - INFO - URL check successful for flickr.com
+2024-11-25 19:17:32 - INFO - URL check successful for spotify.com
+2024-11-25 19:17:32 - INFO - Valid SSL certificate found for archive.org
+2024-11-25 19:17:32 - INFO - Valid SSL certificate found for nginx.org
+2024-11-25 19:17:32 - INFO - Valid SSL certificate found for soundcloud.com
+2024-11-25 19:17:32 - INFO - URL check successful for europa.eu
+2024-11-25 19:17:32 - INFO - Valid SSL certificate found for f5.com
+2024-11-25 19:17:32 - INFO - URL check successful for gravatar.com
+2024-11-25 19:17:32 - INFO - URL check successful for nytimes.com
+2024-11-25 19:17:32 - INFO - Valid SSL certificate found for medium.com
+2024-11-25 19:17:32 - INFO - Valid SSL certificate found for office.com
+2024-11-25 19:17:32 - INFO - URL check successful for nginx.org
+2024-11-25 19:17:32 - INFO - Valid SSL certificate found for w3.org
+2024-11-25 19:17:33 - INFO - Valid SSL certificate found for nginx.com
+2024-11-25 19:17:33 - INFO - Valid SSL certificate found for creativecommons.org
+2024-11-25 19:17:33 - INFO - Valid SSL certificate found for forbes.com
+2024-11-25 19:17:33 - INFO - URL check successful for medium.com
+2024-11-25 19:17:33 - INFO - URL check successful for archive.org
+2024-11-25 19:17:33 - INFO - URL check successful for w3.org
+2024-11-25 19:17:33 - INFO - Valid SSL certificate found for zoom.us
+2024-11-25 19:17:33 - INFO - URL check successful for soundcloud.com
+2024-11-25 19:17:33 - WARNING - URL check failed for maps.app.goo.gl with status code: 400
+2024-11-25 19:17:33 - INFO - URL check successful for open.spotify.com
+2024-11-25 19:17:33 - INFO - Valid SSL certificate found for theguardian.com
+2024-11-25 19:17:33 - INFO - Valid SSL certificate found for sourceforge.net
+2024-11-25 19:17:33 - INFO - URL check successful for office.com
+2024-11-25 19:17:33 - INFO - Valid SSL certificate found for www.ncbi.nlm.nih.gov
+2024-11-25 19:17:33 - INFO - Valid SSL certificate found for t.co
+2024-11-25 19:17:33 - INFO - Valid SSL certificate found for paypal.com
+2024-11-25 19:17:33 - INFO - Valid SSL certificate found for httpd.apache.org
+2024-11-25 19:17:33 - WARNING - URL check failed for qq.com with status code: 501
+2024-11-25 19:17:33 - INFO - Valid SSL certificate found for sciencedirect.com
+2024-11-25 19:17:33 - INFO - URL check successful for forbes.com
+2024-11-25 19:17:33 - INFO - Valid SSL certificate found for dropbox.com
+2024-11-25 19:17:34 - INFO - Valid SSL certificate found for cnn.com
+2024-11-25 19:17:34 - INFO - URL check successful for httpd.apache.org
+2024-11-25 19:17:34 - INFO - Valid SSL certificate found for baidu.com
+2024-11-25 19:17:34 - WARNING - URL check failed for sciencedirect.com with status code: 403
+2024-11-25 19:17:34 - INFO - URL check successful for t.co
+2024-11-25 19:17:34 - INFO - URL check successful for sites.google.com
+2024-11-25 19:17:34 - INFO - URL check successful for creativecommons.org
+2024-11-25 19:17:34 - INFO - Valid SSL certificate found for doi.org
+2024-11-25 19:17:34 - ERROR - SSL check error for wixsite.com: [Errno 11001] getaddrinfo failed
+2024-11-25 19:17:34 - INFO - Valid SSL certificate found for who.int
+2024-11-25 19:17:34 - ERROR - HTTP Request error for wixsite.com: HTTPConnectionPool(host='wixsite.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000178E0EBAA20>: Failed to resolve 'wixsite.com' ([Errno 11001] getaddrinfo failed)"))
+2024-11-25 19:17:34 - INFO - URL check successful for theguardian.com
+2024-11-25 19:17:34 - INFO - Valid SSL certificate found for googleblog.com
+2024-11-25 19:17:34 - INFO - URL check successful for paypal.com
+2024-11-25 19:17:34 - INFO - Valid SSL certificate found for web.archive.org
+2024-11-25 19:17:34 - INFO - URL check successful for sourceforge.net
+2024-11-25 19:17:34 - INFO - Valid SSL certificate found for m.facebook.com
+2024-11-25 19:17:34 - INFO - URL check successful for baidu.com
+2024-11-25 19:17:34 - INFO - URL check successful for zoom.us
+2024-11-25 19:17:34 - INFO - Valid SSL certificate found for live.com
+2024-11-25 19:17:34 - INFO - URL check successful for www.ncbi.nlm.nih.gov
+2024-11-25 19:17:34 - INFO - Valid SSL certificate found for opera.com
+2024-11-25 19:17:34 - INFO - Valid SSL certificate found for tinyurl.com
+2024-11-25 19:17:34 - INFO - Valid SSL certificate found for beian.miit.gov.cn
+2024-11-25 19:17:34 - ERROR - SSL check error for vk.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+2024-11-25 19:17:35 - INFO - Valid SSL certificate found for bbc.com
+2024-11-25 19:17:35 - INFO - Valid SSL certificate found for bbc.co.uk
+2024-11-25 19:17:35 - INFO - URL check successful for tinyurl.com
+2024-11-25 19:17:35 - ERROR - HTTP Request error for f5.com: HTTPSConnectionPool(host='www.f5.com', port=443): Read timed out. (read timeout=1)
+2024-11-25 19:17:35 - INFO - URL check successful for m.facebook.com
+2024-11-25 19:17:35 - INFO - URL check successful for who.int
+2024-11-25 19:17:35 - INFO - URL check successful for yahoo.com
+2024-11-25 19:17:35 - INFO - URL check successful for live.com
+2024-11-25 19:17:35 - INFO - Valid SSL certificate found for issuu.com
+2024-11-25 19:17:35 - INFO - URL check successful for web.archive.org
+2024-11-25 19:17:35 - ERROR - SSL check error for youtube-nocookie.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'youtube-nocookie.com'. (_ssl.c:1000)
+2024-11-25 19:17:35 - INFO - Valid SSL certificate found for weebly.com
+2024-11-25 19:17:35 - INFO - URL check successful for bbc.com
+2024-11-25 19:17:35 - INFO - URL check successful for bbc.co.uk
+2024-11-25 19:17:35 - INFO - URL check successful for opera.com
+2024-11-25 19:17:35 - ERROR - HTTP Request error for youtube-nocookie.com: HTTPSConnectionPool(host='youtube-nocookie.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'youtube-nocookie.com'. (_ssl.c:1000)")))
+2024-11-25 19:17:35 - INFO - URL check successful for dropbox.com
+2024-11-25 19:17:35 - INFO - Valid SSL certificate found for mit.edu
+2024-11-25 19:17:35 - WARNING - URL check failed for issuu.com with status code: 406
+2024-11-25 19:17:35 - INFO - URL check successful for nginx.com
+2024-11-25 19:17:36 - INFO - Valid SSL certificate found for researchgate.net
+2024-11-25 19:17:36 - INFO - Valid SSL certificate found for reuters.com
+2024-11-25 19:17:36 - INFO - Valid SSL certificate found for imdb.com
+2024-11-25 19:17:36 - INFO - Valid SSL certificate found for nature.com
+2024-11-25 19:17:36 - INFO - URL check successful for vk.com
+2024-11-25 19:17:36 - INFO - URL check successful for cnn.com
+2024-11-25 19:17:36 - INFO - URL check successful for ec.europa.eu
+2024-11-25 19:17:36 - WARNING - URL check failed for researchgate.net with status code: 403
+2024-11-25 19:17:36 - ERROR - SSL check error for un.org: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+2024-11-25 19:17:36 - INFO - Valid SSL certificate found for harvard.edu
+2024-11-25 19:17:36 - INFO - Valid SSL certificate found for wiley.com
+2024-11-25 19:17:36 - INFO - Valid SSL certificate found for workspaceupdates.googleblog.com
+2024-11-25 19:17:36 - INFO - Valid SSL certificate found for bing.com
+2024-11-25 19:17:36 - ERROR - SSL check error for washingtonpost.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+2024-11-25 19:17:36 - INFO - Valid SSL certificate found for oracle.com
+2024-11-25 19:17:36 - WARNING - URL check failed for beian.miit.gov.cn with status code: 521
+2024-11-25 19:17:36 - INFO - URL check successful for bing.com
+2024-11-25 19:17:36 - WARNING - URL check failed for reuters.com with status code: 401
+2024-11-25 19:17:37 - INFO - Valid SSL certificate found for bloomberg.com
+2024-11-25 19:17:37 - INFO - Valid SSL certificate found for springer.com
+2024-11-25 19:17:37 - INFO - URL check successful for workspaceupdates.googleblog.com
+2024-11-25 19:17:37 - INFO - Valid SSL certificate found for shopify.com
+2024-11-25 19:17:37 - INFO - URL check successful for mit.edu
+2024-11-25 19:17:37 - INFO - URL check successful for doi.org
+2024-11-25 19:17:37 - INFO - Valid SSL certificate found for accounts.google.com
+2024-11-25 19:17:37 - WARNING - URL check failed for imdb.com with status code: 403
+2024-11-25 19:17:37 - INFO - Valid SSL certificate found for php.net
+2024-11-25 19:17:37 - INFO - URL check successful for harvard.edu
+2024-11-25 19:17:37 - INFO - Valid SSL certificate found for wsj.com
+2024-11-25 19:17:37 - INFO - URL check successful for weebly.com
+2024-11-25 19:17:37 - WARNING - URL check failed for wiley.com with status code: 403
+2024-11-25 19:17:37 - WARNING - URL check failed for wsj.com with status code: 404
+2024-11-25 19:17:37 - INFO - Valid SSL certificate found for ibm.com
+2024-11-25 19:17:37 - INFO - URL check successful for shopify.com
+2024-11-25 19:17:37 - WARNING - URL check failed for un.org with status code: 403
+2024-11-25 19:17:37 - INFO - URL check successful for nature.com
+2024-11-25 19:17:37 - ERROR - HTTP Request error for washingtonpost.com: HTTPSConnectionPool(host='www.washingtonpost.com', port=443): Read timed out. (read timeout=1)
+2024-11-25 19:17:37 - INFO - Valid SSL certificate found for gnu.org
+2024-11-25 19:17:38 - INFO - URL check successful for bloomberg.com
+2024-11-25 19:17:38 - INFO - URL check successful for accounts.google.com
+2024-11-25 19:17:38 - INFO - URL check successful for oracle.com
+2024-11-25 19:17:38 - INFO - URL check successful for gnu.org
+2024-11-25 19:17:38 - INFO - URL check successful for springer.com
+2024-11-25 19:17:38 - INFO - URL check successful for php.net
+2024-11-25 19:17:38 - INFO - URL check successful for ibm.com
+2024-11-25 19:17:39 - INFO - Valid SSL certificate found for weibo.com
+2024-11-25 19:17:39 - INFO - Valid SSL certificate found for stanford.edu
+2024-11-25 19:17:40 - ERROR - SSL check error for amazonaws.com: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-25 19:17:40 - INFO - URL check successful for googleblog.com
+2024-11-25 19:17:41 - INFO - URL check successful for amazonaws.com
+2024-11-25 19:17:41 - INFO - URL check successful for stanford.edu
+2024-11-25 19:17:43 - INFO - Valid SSL certificate found for wikimedia.org
+2024-11-25 19:17:44 - INFO - URL check successful for weibo.com
+2024-11-25 19:17:45 - INFO - URL check successful for wikimedia.org
+2024-11-25 19:17:51 - ERROR - SSL check error for macromedia.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-25 19:17:52 - ERROR - HTTP Request error for macromedia.com: HTTPConnectionPool(host='macromedia.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x00000178DFD9AC90>, 'Connection to macromedia.com timed out. (connect timeout=1)'))
+2024-11-25 19:17:57 - INFO - Valid SSL certificate found for cdc.gov
+2024-11-25 19:18:03 - INFO - URL check successful for cdc.gov
+2024-11-25 19:18:03 - INFO - All URLs have been checked
+2024-11-25 19:18:03 - INFO - Domains updated for raziel
+2024-11-25 19:18:03 - INFO - Multi-threaded URL check completed for user: raziel
+2024-11-25 19:18:03 - INFO - Domain check completed for user: raziel with results count: 120
+2024-11-25 19:43:52 - INFO - Successful regular login for user: raziel
+2024-11-25 20:02:41 - INFO - Successful regular login for user: raziel
+2024-11-25 20:23:47 - INFO - Successful regular login for user: raziel
+2024-11-25 20:37:58 - INFO - Successful regular login for user: raziel
+2024-11-25 20:41:51 - INFO - Successful regular login for user: raziel
+2024-11-25 21:07:41 - INFO - Successful regular login for user: raziel
+2024-11-25 21:07:42 - ERROR - Error occurred while loading domains for user raziel: Expecting value: line 81 column 5 (char 2580)
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\DataManagement.py", line 10, in load_domains
+    data = json.load(f)
+           ^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 81 column 5 (char 2580)
+2024-11-25 21:08:15 - ERROR - Error occurred while loading domains for user raziel: Expecting value: line 81 column 5 (char 2580)
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\DataManagement.py", line 10, in load_domains
+    data = json.load(f)
+           ^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 81 column 5 (char 2580)
+2024-11-25 21:11:19 - ERROR - Error occurred while loading domains for user raziel: Expecting value: line 81 column 5 (char 2580)
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\DataManagement.py", line 10, in load_domains
+    data = json.load(f)
+           ^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 81 column 5 (char 2580)
+2024-11-25 21:14:44 - ERROR - An error occurred while reading domains data for user raziel: Expecting value: line 81 column 5 (char 2580)
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\app.py", line 223, in get_domains
+    data = json.load(f)
+           ^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 81 column 5 (char 2580)
+2024-11-25 21:14:54 - ERROR - An error occurred while reading domains data for user raziel: Expecting value: line 81 column 5 (char 2580)
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\app.py", line 223, in get_domains
+    data = json.load(f)
+           ^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 81 column 5 (char 2580)
+2024-11-25 21:17:05 - INFO - User logged out: raziel
+2024-11-25 21:17:10 - INFO - Successful regular login for user: raziel
+2024-11-25 21:17:11 - INFO - No domains file found for user: raziel
+2024-11-25 21:19:44 - INFO - User logged out: raziel
+2024-11-25 21:19:48 - INFO - Successful regular login for user: raziel
+2024-11-25 21:20:00 - INFO - Starting multi-threaded check for 120 URLs
+2024-11-25 21:20:00 - INFO - Valid SSL certificate found for facebook.com
+2024-11-25 21:20:00 - INFO - Valid SSL certificate found for instagram.com
+2024-11-25 21:20:00 - INFO - Valid SSL certificate found for linkedin.com
+2024-11-25 21:20:00 - INFO - Valid SSL certificate found for youtube.com
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for google.com
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for googletagmanager.com
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for apple.com
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for github.com
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for wikipedia.org
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for play.google.com
+2024-11-25 21:20:01 - WARNING - URL check failed for googletagmanager.com with status code: 404
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for goo.gl
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for youtu.be
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for twitter.com
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for docs.google.com
+2024-11-25 21:20:01 - INFO - URL check successful for github.com
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for pinterest.com
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for maps.google.com
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for bit.ly
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for microsoft.com
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for vimeo.com
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for wordpress.org
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for apps.apple.com
+2024-11-25 21:20:01 - INFO - URL check successful for youtube.com
+2024-11-25 21:20:01 - INFO - URL check successful for linkedin.com
+2024-11-25 21:20:01 - INFO - URL check successful for apple.com
+2024-11-25 21:20:01 - INFO - URL check successful for bit.ly
+2024-11-25 21:20:01 - INFO - URL check successful for youtu.be
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for adobe.com
+2024-11-25 21:20:01 - INFO - URL check successful for play.google.com
+2024-11-25 21:20:01 - INFO - Valid SSL certificate found for wordpress.com
+2024-11-25 21:20:01 - INFO - URL check successful for wikipedia.org
+2024-11-25 21:20:02 - INFO - URL check successful for facebook.com
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for plus.google.com
+2024-11-25 21:20:02 - INFO - URL check successful for instagram.com
+2024-11-25 21:20:02 - INFO - URL check successful for pinterest.com
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for whatsapp.com
+2024-11-25 21:20:02 - INFO - URL check successful for google.com
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for amazon.com
+2024-11-25 21:20:02 - INFO - URL check successful for twitter.com
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for player.vimeo.com
+2024-11-25 21:20:02 - INFO - URL check successful for maps.google.com
+2024-11-25 21:20:02 - INFO - URL check successful for vimeo.com
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for drive.google.com
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for blogspot.com
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for en.wikipedia.org
+2024-11-25 21:20:02 - INFO - URL check successful for docs.google.com
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for mozilla.org
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for api.whatsapp.com
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for itunes.apple.com
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for x.com
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for tiktok.com
+2024-11-25 21:20:02 - WARNING - URL check failed for api.whatsapp.com with status code: 403
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for policies.google.com
+2024-11-25 21:20:02 - INFO - URL check successful for microsoft.com
+2024-11-25 21:20:02 - INFO - URL check successful for wordpress.org
+2024-11-25 21:20:02 - INFO - URL check successful for wordpress.com
+2024-11-25 21:20:02 - INFO - URL check successful for apps.apple.com
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for wa.me
+2024-11-25 21:20:02 - INFO - URL check successful for goo.gl
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for reddit.com
+2024-11-25 21:20:02 - INFO - URL check successful for adobe.com
+2024-11-25 21:20:02 - INFO - Valid SSL certificate found for tumblr.com
+2024-11-25 21:20:02 - INFO - URL check successful for en.wikipedia.org
+2024-11-25 21:20:02 - INFO - URL check successful for mozilla.org
+2024-11-25 21:20:03 - INFO - URL check successful for x.com
+2024-11-25 21:20:03 - INFO - Valid SSL certificate found for yahoo.com
+2024-11-25 21:20:03 - INFO - Valid SSL certificate found for t.me
+2024-11-25 21:20:03 - INFO - URL check successful for tiktok.com
+2024-11-25 21:20:03 - INFO - Valid SSL certificate found for github.io
+2024-11-25 21:20:03 - INFO - URL check successful for player.vimeo.com
+2024-11-25 21:20:03 - INFO - URL check successful for blogspot.com
+2024-11-25 21:20:03 - INFO - URL check successful for policies.google.com
+2024-11-25 21:20:03 - INFO - Valid SSL certificate found for forms.gle
+2024-11-25 21:20:03 - INFO - URL check successful for drive.google.com
+2024-11-25 21:20:03 - INFO - Valid SSL certificate found for cloudflare.com
+2024-11-25 21:20:03 - INFO - Valid SSL certificate found for spotify.com
+2024-11-25 21:20:03 - INFO - URL check successful for plus.google.com
+2024-11-25 21:20:03 - ERROR - Request error for whatsapp.com: HTTPSConnectionPool(host='www.whatsapp.com', port=443): Read timed out. (read timeout=1)
+2024-11-25 21:20:03 - WARNING - URL check failed for amazon.com with status code: 503
+2024-11-25 21:20:03 - INFO - URL check successful for cloudflare.com
+2024-11-25 21:20:03 - WARNING - URL check failed for forms.gle with status code: 400
+2024-11-25 21:20:03 - INFO - URL check successful for github.io
+2024-11-25 21:20:03 - INFO - URL check successful for itunes.apple.com
+2024-11-25 21:20:03 - INFO - URL check successful for wa.me
+2024-11-25 21:20:03 - INFO - URL check successful for t.me
+2024-11-25 21:20:03 - INFO - Valid SSL certificate found for nih.gov
+2024-11-25 21:20:03 - INFO - Valid SSL certificate found for medium.com
+2024-11-25 21:20:03 - INFO - Valid SSL certificate found for nytimes.com
+2024-11-25 21:20:03 - INFO - Valid SSL certificate found for sites.google.com
+2024-11-25 21:20:04 - INFO - URL check successful for reddit.com
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for gravatar.com
+2024-11-25 21:20:04 - INFO - URL check successful for medium.com
+2024-11-25 21:20:04 - INFO - URL check successful for tumblr.com
+2024-11-25 21:20:04 - INFO - URL check successful for spotify.com
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for maps.app.goo.gl
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for open.spotify.com
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for nginx.org
+2024-11-25 21:20:04 - ERROR - Request error for nih.gov: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-25 21:20:04 - ERROR - SSL check error for miit.gov.cn: [Errno 11001] getaddrinfo failed
+2024-11-25 21:20:04 - ERROR - Request error for miit.gov.cn: HTTPConnectionPool(host='miit.gov.cn', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000017B34BB5250>: Failed to resolve 'miit.gov.cn' ([Errno 11001] getaddrinfo failed)"))
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for archive.org
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for flickr.com
+2024-11-25 21:20:04 - INFO - URL check successful for nginx.org
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for apache.org
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for qq.com
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for soundcloud.com
+2024-11-25 21:20:04 - INFO - URL check successful for nytimes.com
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for office.com
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for forbes.com
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for f5.com
+2024-11-25 21:20:04 - WARNING - URL check failed for maps.app.goo.gl with status code: 400
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for w3.org
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for nginx.com
+2024-11-25 21:20:04 - INFO - URL check successful for archive.org
+2024-11-25 21:20:04 - INFO - URL check successful for apache.org
+2024-11-25 21:20:04 - INFO - URL check successful for yahoo.com
+2024-11-25 21:20:04 - INFO - URL check successful for w3.org
+2024-11-25 21:20:04 - INFO - URL check successful for soundcloud.com
+2024-11-25 21:20:04 - INFO - Valid SSL certificate found for creativecommons.org
+2024-11-25 21:20:05 - INFO - Valid SSL certificate found for zoom.us
+2024-11-25 21:20:05 - INFO - Valid SSL certificate found for theguardian.com
+2024-11-25 21:20:05 - INFO - URL check successful for office.com
+2024-11-25 21:20:05 - INFO - Valid SSL certificate found for t.co
+2024-11-25 21:20:05 - INFO - URL check successful for open.spotify.com
+2024-11-25 21:20:05 - INFO - URL check successful for gravatar.com
+2024-11-25 21:20:05 - INFO - URL check successful for flickr.com
+2024-11-25 21:20:05 - INFO - Valid SSL certificate found for sourceforge.net
+2024-11-25 21:20:05 - INFO - Valid SSL certificate found for httpd.apache.org
+2024-11-25 21:20:05 - INFO - Valid SSL certificate found for www.ncbi.nlm.nih.gov
+2024-11-25 21:20:05 - INFO - URL check successful for creativecommons.org
+2024-11-25 21:20:05 - INFO - Valid SSL certificate found for paypal.com
+2024-11-25 21:20:05 - INFO - Valid SSL certificate found for europa.eu
+2024-11-25 21:20:05 - INFO - Valid SSL certificate found for sciencedirect.com
+2024-11-25 21:20:05 - INFO - URL check successful for httpd.apache.org
+2024-11-25 21:20:05 - INFO - Valid SSL certificate found for cnn.com
+2024-11-25 21:20:05 - INFO - Valid SSL certificate found for ec.europa.eu
+2024-11-25 21:20:05 - INFO - URL check successful for t.co
+2024-11-25 21:20:05 - INFO - Valid SSL certificate found for baidu.com
+2024-11-25 21:20:05 - INFO - Valid SSL certificate found for dropbox.com
+2024-11-25 21:20:05 - INFO - URL check successful for sites.google.com
+2024-11-25 21:20:05 - WARNING - URL check failed for qq.com with status code: 501
+2024-11-25 21:20:05 - WARNING - URL check failed for sciencedirect.com with status code: 403
+2024-11-25 21:20:06 - INFO - URL check successful for theguardian.com
+2024-11-25 21:20:06 - ERROR - SSL check error for wixsite.com: [Errno 11001] getaddrinfo failed
+2024-11-25 21:20:06 - ERROR - Request error for wixsite.com: HTTPConnectionPool(host='wixsite.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000017B34C224B0>: Failed to resolve 'wixsite.com' ([Errno 11001] getaddrinfo failed)"))
+2024-11-25 21:20:06 - INFO - Valid SSL certificate found for googleblog.com
+2024-11-25 21:20:06 - INFO - URL check successful for sourceforge.net
+2024-11-25 21:20:06 - INFO - Valid SSL certificate found for who.int
+2024-11-25 21:20:06 - ERROR - Request error for forbes.com: HTTPSConnectionPool(host='www.forbes.com', port=443): Read timed out. (read timeout=1)
+2024-11-25 21:20:06 - INFO - Valid SSL certificate found for doi.org
+2024-11-25 21:20:06 - INFO - Valid SSL certificate found for m.facebook.com
+2024-11-25 21:20:06 - INFO - Valid SSL certificate found for web.archive.org
+2024-11-25 21:20:06 - INFO - URL check successful for paypal.com
+2024-11-25 21:20:06 - INFO - URL check successful for baidu.com
+2024-11-25 21:20:06 - INFO - Valid SSL certificate found for live.com
+2024-11-25 21:20:06 - INFO - Valid SSL certificate found for opera.com
+2024-11-25 21:20:06 - INFO - URL check successful for www.ncbi.nlm.nih.gov
+2024-11-25 21:20:06 - ERROR - SSL check error for vk.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+2024-11-25 21:20:06 - INFO - Valid SSL certificate found for tinyurl.com
+2024-11-25 21:20:06 - INFO - URL check successful for zoom.us
+2024-11-25 21:20:06 - INFO - Valid SSL certificate found for beian.miit.gov.cn
+2024-11-25 21:20:06 - INFO - URL check successful for europa.eu
+2024-11-25 21:20:06 - INFO - URL check successful for f5.com
+2024-11-25 21:20:06 - INFO - Valid SSL certificate found for bbc.com
+2024-11-25 21:20:06 - INFO - URL check successful for m.facebook.com
+2024-11-25 21:20:06 - INFO - URL check successful for cnn.com
+2024-11-25 21:20:06 - INFO - Valid SSL certificate found for bbc.co.uk
+2024-11-25 21:20:06 - INFO - URL check successful for tinyurl.com
+2024-11-25 21:20:06 - INFO - Valid SSL certificate found for issuu.com
+2024-11-25 21:20:06 - INFO - URL check successful for web.archive.org
+2024-11-25 21:20:07 - INFO - URL check successful for who.int
+2024-11-25 21:20:07 - INFO - URL check successful for live.com
+2024-11-25 21:20:07 - INFO - Valid SSL certificate found for weebly.com
+2024-11-25 21:20:07 - INFO - URL check successful for opera.com
+2024-11-25 21:20:07 - WARNING - URL check failed for beian.miit.gov.cn with status code: 521
+2024-11-25 21:20:07 - INFO - Valid SSL certificate found for mit.edu
+2024-11-25 21:20:07 - INFO - Valid SSL certificate found for harvard.edu
+2024-11-25 21:20:07 - WARNING - URL check failed for issuu.com with status code: 406
+2024-11-25 21:20:07 - INFO - URL check successful for dropbox.com
+2024-11-25 21:20:07 - INFO - URL check successful for nginx.com
+2024-11-25 21:20:07 - INFO - URL check successful for bbc.co.uk
+2024-11-25 21:20:07 - INFO - URL check successful for bbc.com
+2024-11-25 21:20:07 - INFO - Valid SSL certificate found for researchgate.net
+2024-11-25 21:20:07 - INFO - Valid SSL certificate found for cdc.gov
+2024-11-25 21:20:07 - INFO - Valid SSL certificate found for wikimedia.org
+2024-11-25 21:20:07 - ERROR - SSL check error for youtube-nocookie.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'youtube-nocookie.com'. (_ssl.c:1000)
+2024-11-25 21:20:07 - INFO - Valid SSL certificate found for reuters.com
+2024-11-25 21:20:07 - INFO - URL check successful for googleblog.com
+2024-11-25 21:20:07 - INFO - Valid SSL certificate found for nature.com
+2024-11-25 21:20:07 - INFO - Valid SSL certificate found for imdb.com
+2024-11-25 21:20:07 - ERROR - SSL check error for washingtonpost.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)
+2024-11-25 21:20:07 - INFO - URL check successful for vk.com
+2024-11-25 21:20:07 - ERROR - Request error for youtube-nocookie.com: HTTPSConnectionPool(host='youtube-nocookie.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'youtube-nocookie.com'. (_ssl.c:1000)")))
+2024-11-25 21:20:07 - INFO - Valid SSL certificate found for wiley.com
+2024-11-25 21:20:07 - ERROR - SSL check error for un.org: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+2024-11-25 21:20:07 - WARNING - URL check failed for researchgate.net with status code: 403
+2024-11-25 21:20:07 - INFO - Valid SSL certificate found for bing.com
+2024-11-25 21:20:07 - INFO - Valid SSL certificate found for workspaceupdates.googleblog.com
+2024-11-25 21:20:08 - INFO - Valid SSL certificate found for oracle.com
+2024-11-25 21:20:08 - INFO - Valid SSL certificate found for php.net
+2024-11-25 21:20:08 - INFO - URL check successful for weebly.com
+2024-11-25 21:20:08 - WARNING - URL check failed for reuters.com with status code: 401
+2024-11-25 21:20:08 - INFO - Valid SSL certificate found for bloomberg.com
+2024-11-25 21:20:08 - INFO - URL check successful for bing.com
+2024-11-25 21:20:08 - INFO - URL check successful for ec.europa.eu
+2024-11-25 21:20:08 - INFO - Valid SSL certificate found for accounts.google.com
+2024-11-25 21:20:08 - INFO - Valid SSL certificate found for shopify.com
+2024-11-25 21:20:08 - INFO - URL check successful for harvard.edu
+2024-11-25 21:20:08 - INFO - URL check successful for wikimedia.org
+2024-11-25 21:20:08 - INFO - URL check successful for workspaceupdates.googleblog.com
+2024-11-25 21:20:08 - WARNING - URL check failed for wiley.com with status code: 403
+2024-11-25 21:20:08 - WARNING - URL check failed for imdb.com with status code: 403
+2024-11-25 21:20:08 - INFO - URL check successful for mit.edu
+2024-11-25 21:20:09 - INFO - URL check successful for shopify.com
+2024-11-25 21:20:09 - ERROR - Request error for washingtonpost.com: HTTPSConnectionPool(host='www.washingtonpost.com', port=443): Read timed out. (read timeout=1)
+2024-11-25 21:20:09 - INFO - Valid SSL certificate found for ibm.com
+2024-11-25 21:20:09 - INFO - URL check successful for nature.com
+2024-11-25 21:20:09 - INFO - Valid SSL certificate found for springer.com
+2024-11-25 21:20:09 - INFO - URL check successful for accounts.google.com
+2024-11-25 21:20:09 - INFO - URL check successful for doi.org
+2024-11-25 21:20:09 - INFO - Valid SSL certificate found for weibo.com
+2024-11-25 21:20:09 - INFO - URL check successful for bloomberg.com
+2024-11-25 21:20:09 - INFO - Valid SSL certificate found for wsj.com
+2024-11-25 21:20:09 - INFO - Valid SSL certificate found for stanford.edu
+2024-11-25 21:20:09 - INFO - Valid SSL certificate found for gnu.org
+2024-11-25 21:20:09 - INFO - URL check successful for cdc.gov
+2024-11-25 21:20:09 - WARNING - URL check failed for wsj.com with status code: 404
+2024-11-25 21:20:09 - INFO - URL check successful for springer.com
+2024-11-25 21:20:10 - INFO - URL check successful for oracle.com
+2024-11-25 21:20:10 - INFO - URL check successful for php.net
+2024-11-25 21:20:10 - INFO - URL check successful for ibm.com
+2024-11-25 21:20:10 - INFO - URL check successful for gnu.org
+2024-11-25 21:20:10 - INFO - URL check successful for stanford.edu
+2024-11-25 21:20:11 - ERROR - SSL check error for amazonaws.com: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-25 21:20:12 - WARNING - URL check failed for un.org with status code: 403
+2024-11-25 21:20:12 - INFO - URL check successful for amazonaws.com
+2024-11-25 21:20:13 - INFO - URL check successful for weibo.com
+2024-11-25 21:20:23 - ERROR - SSL check error for macromedia.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-25 21:20:25 - ERROR - Request error for macromedia.com: HTTPConnectionPool(host='macromedia.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000017B34532150>, 'Connection to macromedia.com timed out. (connect timeout=1)'))
+2024-11-25 21:20:25 - INFO - Completed checking 120 URLs
+2024-11-25 21:20:44 - INFO - Starting multi-threaded check for 1 URLs
+2024-11-25 21:20:44 - INFO - Valid SSL certificate found for google.com
+2024-11-25 21:20:45 - INFO - URL check successful for google.com
+2024-11-25 21:20:45 - INFO - Completed checking 1 URLs
+2024-11-25 21:28:29 - INFO - Starting multi-threaded check for 1 URLs
+2024-11-25 21:28:29 - INFO - Valid SSL certificate found for google.com
+2024-11-25 21:28:29 - INFO - URL check successful for google.com
+2024-11-25 21:28:29 - INFO - Completed checking 1 URLs
+2024-11-25 21:28:37 - INFO - Starting multi-threaded check for 1 URLs
+2024-11-25 21:28:37 - INFO - Valid SSL certificate found for youtube.com
+2024-11-25 21:28:38 - INFO - URL check successful for youtube.com
+2024-11-25 21:28:38 - INFO - Completed checking 1 URLs
+2024-11-25 22:02:35 - INFO - Successful regular login for user: raziel
+2024-11-25 22:07:00 - INFO - User logged out: raziel
+2024-11-25 22:07:26 - WARNING - Failed login attempt - User not found: new
+2024-11-25 22:07:49 - INFO - New regular user registered: raziel
+2024-11-25 22:07:56 - INFO - Successful regular login for user: raziel
+2024-11-25 22:13:03 - INFO - Starting multi-threaded check for 3 domains for user: example_user
+2024-11-25 22:13:03 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:13:03 - ERROR - SSL check error for {'url': 'www.google.com'}: 'dict' object has no attribute 'replace'
+2024-11-25 22:13:03 - ERROR - SSL check error for {'url': 'www.facebook.com'}: 'dict' object has no attribute 'replace'
+2024-11-25 22:13:03 - ERROR - SSL check error for {'url': 'www.youtube.com'}: 'dict' object has no attribute 'replace'
+2024-11-25 22:13:03 - ERROR - Request error for {'url': 'www.google.com'}: Failed to parse: http://{'url': 'www.google.com'}
+2024-11-25 22:13:03 - ERROR - Request error for {'url': 'www.facebook.com'}: Failed to parse: http://{'url': 'www.facebook.com'}
+2024-11-25 22:13:03 - ERROR - Request error for {'url': 'www.youtube.com'}: Failed to parse: http://{'url': 'www.youtube.com'}
+2024-11-25 22:13:03 - INFO - All URLs processed
+2024-11-25 22:15:18 - INFO - Starting multi-threaded check for 3 domains for user: example_user
+2024-11-25 22:15:18 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:15:18 - INFO - SSL certificate valid for www.google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:15:18 - INFO - SSL certificate valid for www.youtube.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:15:18 - INFO - SSL certificate valid for www.facebook.com: expires 2024-12-02 23:59:59+00:00
+2024-11-25 22:15:18 - INFO - URL check successful for www.google.com
+2024-11-25 22:15:18 - INFO - URL check successful for www.youtube.com
+2024-11-25 22:15:19 - INFO - URL check successful for www.facebook.com
+2024-11-25 22:15:19 - INFO - All URLs processed
+2024-11-25 22:15:19 - INFO - Results: [{'url': 'www.google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}, {'url': 'www.youtube.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}, {'url': 'www.facebook.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-02 23:59:59', 'issuer': 'DigiCert SHA2 High Assurance Server CA'}]
+2024-11-25 22:15:54 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:15:54 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:15:54 - INFO - SSL certificate valid for google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:15:55 - INFO - URL check successful for google.com
+2024-11-25 22:15:55 - INFO - All URLs processed
+2024-11-25 22:15:55 - INFO - Results: [{'url': 'google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}]
+2024-11-25 22:16:07 - INFO - Starting multi-threaded check for 120 domains for user: raziel
+2024-11-25 22:16:07 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:16:08 - INFO - SSL certificate valid for google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for linkedin.com: expires 2025-04-14 23:59:59+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for youtube.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for facebook.com: expires 2024-12-02 23:59:59+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for instagram.com: expires 2024-12-02 23:59:59+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for googletagmanager.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for github.com: expires 2025-03-07 23:59:59+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for apple.com: expires 2025-02-12 20:09:50+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for play.google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for wikipedia.org: expires 2025-10-17 23:59:59+00:00
+2024-11-25 22:16:08 - INFO - URL check successful for github.com
+2024-11-25 22:16:08 - INFO - SSL certificate valid for pinterest.com: expires 2025-08-07 23:59:59+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for docs.google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:16:08 - WARNING - URL check failed for googletagmanager.com with status code: 404
+2024-11-25 22:16:08 - INFO - SSL certificate valid for youtu.be: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for goo.gl: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for bit.ly: expires 2025-05-06 23:59:59+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for twitter.com: expires 2025-09-29 23:59:59+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for maps.google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for en.wikipedia.org: expires 2025-10-17 23:59:59+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for microsoft.com: expires 2025-04-22 15:47:07+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for apps.apple.com: expires 2025-01-14 19:39:31+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for vimeo.com: expires 2025-02-21 10:29:55+00:00
+2024-11-25 22:16:08 - INFO - SSL certificate valid for wordpress.org: expires 2024-12-31 23:59:59+00:00
+2024-11-25 22:16:08 - INFO - URL check successful for youtube.com
+2024-11-25 22:16:08 - INFO - SSL certificate valid for adobe.com: expires 2025-07-15 23:59:59+00:00
+2024-11-25 22:16:08 - INFO - URL check successful for linkedin.com
+2024-11-25 22:16:08 - INFO - URL check successful for bit.ly
+2024-11-25 22:16:08 - INFO - SSL certificate valid for wordpress.com: expires 2025-02-11 13:10:36+00:00
+2024-11-25 22:16:08 - INFO - URL check successful for google.com
+2024-11-25 22:16:08 - INFO - URL check successful for apple.com
+2024-11-25 22:16:08 - INFO - URL check successful for facebook.com
+2024-11-25 22:16:08 - INFO - URL check successful for pinterest.com
+2024-11-25 22:16:08 - INFO - URL check successful for youtu.be
+2024-11-25 22:16:08 - INFO - URL check successful for vimeo.com
+2024-11-25 22:16:09 - INFO - SSL certificate valid for drive.google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:16:09 - INFO - SSL certificate valid for whatsapp.com: expires 2024-12-02 23:59:59+00:00
+2024-11-25 22:16:09 - INFO - URL check successful for play.google.com
+2024-11-25 22:16:09 - INFO - SSL certificate valid for plus.google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:16:09 - INFO - SSL certificate valid for blogspot.com: expires 2025-01-13 08:37:37+00:00
+2024-11-25 22:16:09 - INFO - URL check successful for microsoft.com
+2024-11-25 22:16:09 - INFO - URL check successful for maps.google.com
+2024-11-25 22:16:09 - INFO - URL check successful for docs.google.com
+2024-11-25 22:16:09 - INFO - URL check successful for instagram.com
+2024-11-25 22:16:09 - INFO - SSL certificate valid for player.vimeo.com: expires 2025-02-21 10:29:55+00:00
+2024-11-25 22:16:09 - INFO - SSL certificate valid for amazon.com: expires 2025-07-27 23:59:59+00:00
+2024-11-25 22:16:09 - INFO - SSL certificate valid for mozilla.org: expires 2025-02-13 14:40:25+00:00
+2024-11-25 22:16:09 - INFO - URL check successful for twitter.com
+2024-11-25 22:16:09 - INFO - SSL certificate valid for api.whatsapp.com: expires 2024-12-02 23:59:59+00:00
+2024-11-25 22:16:09 - INFO - SSL certificate valid for x.com: expires 2025-09-29 23:59:59+00:00
+2024-11-25 22:16:09 - INFO - SSL certificate valid for itunes.apple.com: expires 2025-01-14 19:39:31+00:00
+2024-11-25 22:16:09 - INFO - SSL certificate valid for tiktok.com: expires 2025-08-26 23:59:59+00:00
+2024-11-25 22:16:09 - INFO - SSL certificate valid for europa.eu: expires 2025-08-10 12:06:07+00:00
+2024-11-25 22:16:09 - WARNING - URL check failed for api.whatsapp.com with status code: 403
+2024-11-25 22:16:09 - INFO - SSL certificate valid for policies.google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:16:09 - INFO - URL check successful for wordpress.com
+2024-11-25 22:16:09 - INFO - SSL certificate valid for wa.me: expires 2024-12-02 23:59:59+00:00
+2024-11-25 22:16:09 - INFO - URL check successful for wordpress.org
+2024-11-25 22:16:09 - INFO - URL check successful for plus.google.com
+2024-11-25 22:16:09 - INFO - URL check successful for apps.apple.com
+2024-11-25 22:16:09 - ERROR - Request error for adobe.com: HTTPSConnectionPool(host='www.adobe.com', port=443): Read timed out. (read timeout=1)
+2024-11-25 22:16:09 - INFO - URL check successful for goo.gl
+2024-11-25 22:16:09 - INFO - SSL certificate valid for reddit.com: expires 2025-04-11 23:59:59+00:00
+2024-11-25 22:16:09 - INFO - URL check successful for x.com
+2024-11-25 22:16:09 - INFO - URL check successful for tiktok.com
+2024-11-25 22:16:09 - INFO - SSL certificate valid for tumblr.com: expires 2025-03-26 23:59:59+00:00
+2024-11-25 22:16:09 - INFO - URL check successful for drive.google.com
+2024-11-25 22:16:10 - INFO - URL check successful for en.wikipedia.org
+2024-11-25 22:16:10 - INFO - SSL certificate valid for t.me: expires 2025-11-07 19:51:28+00:00
+2024-11-25 22:16:10 - INFO - URL check successful for player.vimeo.com
+2024-11-25 22:16:10 - INFO - URL check successful for whatsapp.com
+2024-11-25 22:16:10 - INFO - SSL certificate valid for yahoo.com: expires 2025-01-15 23:59:59+00:00
+2024-11-25 22:16:10 - WARNING - URL check failed for amazon.com with status code: 503
+2024-11-25 22:16:10 - INFO - URL check successful for blogspot.com
+2024-11-25 22:16:10 - INFO - SSL certificate valid for github.io: expires 2025-03-14 23:59:59+00:00
+2024-11-25 22:16:10 - INFO - SSL certificate valid for forms.gle: expires 2025-02-06 05:20:15+00:00
+2024-11-25 22:16:10 - INFO - SSL certificate valid for cloudflare.com: expires 2025-02-23 18:53:12+00:00
+2024-11-25 22:16:10 - INFO - SSL certificate valid for spotify.com: expires 2025-02-04 23:59:59+00:00
+2024-11-25 22:16:10 - INFO - URL check successful for europa.eu
+2024-11-25 22:16:10 - INFO - SSL certificate valid for gravatar.com: expires 2025-01-04 23:59:59+00:00
+2024-11-25 22:16:10 - INFO - SSL certificate valid for apache.org: expires 2025-01-20 07:42:40+00:00
+2024-11-25 22:16:10 - INFO - URL check successful for mozilla.org
+2024-11-25 22:16:10 - INFO - SSL certificate valid for flickr.com: expires 2025-03-04 23:59:59+00:00
+2024-11-25 22:16:10 - INFO - URL check successful for policies.google.com
+2024-11-25 22:16:10 - INFO - URL check successful for cloudflare.com
+2024-11-25 22:16:10 - INFO - URL check successful for wa.me
+2024-11-25 22:16:10 - INFO - URL check successful for apache.org
+2024-11-25 22:16:10 - WARNING - URL check failed for forms.gle with status code: 400
+2024-11-25 22:16:10 - INFO - URL check successful for itunes.apple.com
+2024-11-25 22:16:10 - INFO - SSL certificate valid for medium.com: expires 2025-02-23 18:56:38+00:00
+2024-11-25 22:16:10 - INFO - SSL certificate valid for sites.google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:16:10 - INFO - URL check successful for github.io
+2024-11-25 22:16:10 - INFO - SSL certificate valid for nih.gov: expires 2025-01-17 18:29:15+00:00
+2024-11-25 22:16:10 - INFO - SSL certificate valid for nytimes.com: expires 2025-03-13 23:59:59+00:00
+2024-11-25 22:16:10 - INFO - URL check successful for t.me
+2024-11-25 22:16:10 - INFO - SSL certificate valid for ec.europa.eu: expires 2025-08-03 13:21:01+00:00
+2024-11-25 22:16:10 - INFO - URL check successful for medium.com
+2024-11-25 22:16:10 - INFO - URL check successful for spotify.com
+2024-11-25 22:16:10 - INFO - URL check successful for reddit.com
+2024-11-25 22:16:10 - ERROR - SSL Error with miit.gov.cn: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\domains_check_MT.py", line 58, in check_certificate
+    with socket.create_connection((hostname, 443)) as sock:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 841, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2024-11-25 22:16:10 - ERROR - Request error for miit.gov.cn: HTTPConnectionPool(host='miit.gov.cn', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001CC5575D1F0>: Failed to resolve 'miit.gov.cn' ([Errno 11001] getaddrinfo failed)"))
+2024-11-25 22:16:10 - INFO - URL check successful for wikipedia.org
+2024-11-25 22:16:11 - INFO - SSL certificate valid for open.spotify.com: expires 2024-12-18 01:12:53+00:00
+2024-11-25 22:16:11 - INFO - SSL certificate valid for maps.app.goo.gl: expires 2025-01-13 08:37:12+00:00
+2024-11-25 22:16:11 - INFO - SSL certificate valid for soundcloud.com: expires 2025-03-09 12:22:14+00:00
+2024-11-25 22:16:11 - INFO - SSL certificate valid for nginx.org: expires 2025-02-02 08:59:20+00:00
+2024-11-25 22:16:11 - ERROR - Request error for nih.gov: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-25 22:16:11 - INFO - URL check successful for tumblr.com
+2024-11-25 22:16:11 - INFO - SSL certificate valid for office.com: expires 2025-09-13 16:26:36+00:00
+2024-11-25 22:16:11 - INFO - SSL certificate valid for archive.org: expires 2025-01-23 14:17:22+00:00
+2024-11-25 22:16:11 - INFO - URL check successful for flickr.com
+2024-11-25 22:16:11 - INFO - SSL certificate valid for forbes.com: expires 2025-04-07 18:51:31+00:00
+2024-11-25 22:16:11 - INFO - SSL certificate valid for qq.com: expires 2025-06-10 23:59:59+00:00
+2024-11-25 22:16:11 - INFO - URL check successful for gravatar.com
+2024-11-25 22:16:11 - INFO - URL check successful for nytimes.com
+2024-11-25 22:16:11 - INFO - SSL certificate valid for nginx.com: expires 2025-02-05 21:32:17+00:00
+2024-11-25 22:16:11 - INFO - URL check successful for soundcloud.com
+2024-11-25 22:16:11 - INFO - URL check successful for archive.org
+2024-11-25 22:16:11 - INFO - SSL certificate valid for creativecommons.org: expires 2025-02-18 03:18:38+00:00
+2024-11-25 22:16:11 - INFO - URL check successful for nginx.org
+2024-11-25 22:16:11 - INFO - SSL certificate valid for f5.com: expires 2025-11-21 21:51:37+00:00
+2024-11-25 22:16:11 - INFO - SSL certificate valid for theguardian.com: expires 2025-10-18 10:57:40+00:00
+2024-11-25 22:16:11 - INFO - SSL certificate valid for zoom.us: expires 2025-04-05 23:59:59+00:00
+2024-11-25 22:16:12 - INFO - SSL certificate valid for www.ncbi.nlm.nih.gov: expires 2025-08-02 21:41:30+00:00
+2024-11-25 22:16:12 - INFO - SSL certificate valid for t.co: expires 2024-12-27 14:58:35+00:00
+2024-11-25 22:16:12 - INFO - URL check successful for office.com
+2024-11-25 22:16:12 - WARNING - URL check failed for maps.app.goo.gl with status code: 400
+2024-11-25 22:16:12 - INFO - SSL certificate valid for w3.org: expires 2024-12-31 23:59:59+00:00
+2024-11-25 22:16:12 - INFO - URL check successful for creativecommons.org
+2024-11-25 22:16:12 - INFO - SSL certificate valid for sourceforge.net: expires 2024-12-31 23:59:59+00:00
+2024-11-25 22:16:12 - INFO - URL check successful for open.spotify.com
+2024-11-25 22:16:12 - INFO - URL check successful for w3.org
+2024-11-25 22:16:12 - INFO - SSL certificate valid for paypal.com: expires 2025-08-06 23:59:59+00:00
+2024-11-25 22:16:12 - INFO - SSL certificate valid for sciencedirect.com: expires 2025-01-07 08:01:20+00:00
+2024-11-25 22:16:12 - INFO - SSL certificate valid for baidu.com: expires 2025-03-01 23:59:59+00:00
+2024-11-25 22:16:12 - INFO - URL check successful for t.co
+2024-11-25 22:16:12 - INFO - SSL certificate valid for cnn.com: expires 2025-10-29 19:18:29+00:00
+2024-11-25 22:16:12 - INFO - URL check successful for theguardian.com
+2024-11-25 22:16:12 - INFO - SSL certificate valid for dropbox.com: expires 2025-12-08 23:59:59+00:00
+2024-11-25 22:16:12 - WARNING - URL check failed for qq.com with status code: 501
+2024-11-25 22:16:12 - ERROR - Request error for forbes.com: HTTPSConnectionPool(host='www.forbes.com', port=443): Read timed out. (read timeout=1)
+2024-11-25 22:16:12 - INFO - URL check successful for sites.google.com
+2024-11-25 22:16:12 - WARNING - URL check failed for sciencedirect.com with status code: 403
+2024-11-25 22:16:13 - INFO - SSL certificate valid for who.int: expires 2025-01-18 07:41:00+00:00
+2024-11-25 22:16:13 - INFO - SSL certificate valid for beian.miit.gov.cn: expires 2025-10-13 23:59:59+00:00
+2024-11-25 22:16:13 - INFO - SSL certificate valid for httpd.apache.org: expires 2025-01-02 08:43:03+00:00
+2024-11-25 22:16:13 - ERROR - Request error for nginx.com: HTTPSConnectionPool(host='www.nginx.com', port=443): Read timed out. (read timeout=1)
+2024-11-25 22:16:13 - ERROR - SSL Error with wixsite.com: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\domains_check_MT.py", line 58, in check_certificate
+    with socket.create_connection((hostname, 443)) as sock:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 841, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2024-11-25 22:16:13 - ERROR - Request error for wixsite.com: HTTPConnectionPool(host='wixsite.com', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001CC55B71760>: Failed to resolve 'wixsite.com' ([Errno 11001] getaddrinfo failed)"))
+2024-11-25 22:16:13 - INFO - SSL certificate valid for googleblog.com: expires 2025-01-13 08:37:12+00:00
+2024-11-25 22:16:13 - INFO - URL check successful for zoom.us
+2024-11-25 22:16:13 - ERROR - Request error for baidu.com: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-11-25 22:16:13 - INFO - SSL certificate valid for web.archive.org: expires 2025-01-23 14:17:22+00:00
+2024-11-25 22:16:13 - INFO - SSL certificate valid for m.facebook.com: expires 2024-12-02 23:59:59+00:00
+2024-11-25 22:16:13 - INFO - SSL certificate valid for live.com: expires 2025-03-10 23:59:59+00:00
+2024-11-25 22:16:13 - INFO - URL check successful for paypal.com
+2024-11-25 22:16:13 - INFO - SSL certificate valid for opera.com: expires 2025-01-09 23:59:59+00:00
+2024-11-25 22:16:13 - INFO - SSL certificate valid for tinyurl.com: expires 2025-02-21 00:39:02+00:00
+2024-11-25 22:16:13 - INFO - URL check successful for httpd.apache.org
+2024-11-25 22:16:13 - INFO - URL check successful for sourceforge.net
+2024-11-25 22:16:13 - ERROR - SSL Error with vk.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\domains_check_MT.py", line 59, in check_certificate
+    with context.wrap_socket(sock, server_hostname=hostname) as ssock:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+2024-11-25 22:16:13 - INFO - URL check successful for www.ncbi.nlm.nih.gov
+2024-11-25 22:16:13 - INFO - SSL certificate valid for bbc.com: expires 2025-07-19 06:26:04+00:00
+2024-11-25 22:16:13 - INFO - SSL certificate valid for bbc.co.uk: expires 2025-07-19 06:26:04+00:00
+2024-11-25 22:16:13 - INFO - URL check successful for m.facebook.com
+2024-11-25 22:16:13 - INFO - SSL certificate valid for doi.org: expires 2025-01-04 12:16:25+00:00
+2024-11-25 22:16:13 - INFO - URL check successful for live.com
+2024-11-25 22:16:13 - INFO - URL check successful for cnn.com
+2024-11-25 22:16:13 - WARNING - URL check failed for beian.miit.gov.cn with status code: 521
+2024-11-25 22:16:13 - INFO - SSL certificate valid for issuu.com: expires 2025-10-12 13:40:10+00:00
+2024-11-25 22:16:13 - INFO - URL check successful for web.archive.org
+2024-11-25 22:16:13 - INFO - URL check successful for who.int
+2024-11-25 22:16:13 - ERROR - SSL Error with youtube-nocookie.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'youtube-nocookie.com'. (_ssl.c:1000)
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\domains_check_MT.py", line 59, in check_certificate
+    with context.wrap_socket(sock, server_hostname=hostname) as ssock:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'youtube-nocookie.com'. (_ssl.c:1000)
+2024-11-25 22:16:13 - INFO - URL check successful for tinyurl.com
+2024-11-25 22:16:13 - INFO - SSL certificate valid for harvard.edu: expires 2025-01-26 15:24:12+00:00
+2024-11-25 22:16:13 - INFO - SSL certificate valid for weebly.com: expires 2025-01-26 18:44:57+00:00
+2024-11-25 22:16:14 - INFO - URL check successful for ec.europa.eu
+2024-11-25 22:16:14 - INFO - URL check successful for opera.com
+2024-11-25 22:16:14 - ERROR - Request error for youtube-nocookie.com: HTTPSConnectionPool(host='youtube-nocookie.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'youtube-nocookie.com'. (_ssl.c:1000)")))
+2024-11-25 22:16:14 - INFO - URL check successful for bbc.com
+2024-11-25 22:16:14 - WARNING - URL check failed for issuu.com with status code: 406
+2024-11-25 22:16:14 - INFO - SSL certificate valid for mit.edu: expires 2025-06-28 23:59:59+00:00
+2024-11-25 22:16:14 - INFO - URL check successful for bbc.co.uk
+2024-11-25 22:16:14 - INFO - SSL certificate valid for researchgate.net: expires 2025-02-03 09:07:11+00:00
+2024-11-25 22:16:14 - INFO - URL check successful for yahoo.com
+2024-11-25 22:16:14 - INFO - SSL certificate valid for wikimedia.org: expires 2025-10-17 23:59:59+00:00
+2024-11-25 22:16:14 - INFO - SSL certificate valid for nature.com: expires 2025-02-01 07:02:58+00:00
+2024-11-25 22:16:14 - INFO - URL check successful for dropbox.com
+2024-11-25 22:16:14 - INFO - SSL certificate valid for imdb.com: expires 2025-08-11 23:59:59+00:00
+2024-11-25 22:16:14 - INFO - SSL certificate valid for washingtonpost.com: expires 2025-05-12 15:21:21+00:00
+2024-11-25 22:16:14 - INFO - SSL certificate valid for reuters.com: expires 2025-11-18 23:59:59+00:00
+2024-11-25 22:16:14 - INFO - URL check successful for googleblog.com
+2024-11-25 22:16:14 - INFO - SSL certificate valid for cdc.gov: expires 2025-08-08 14:04:00+00:00
+2024-11-25 22:16:14 - INFO - SSL certificate valid for bing.com: expires 2025-03-15 23:16:19+00:00
+2024-11-25 22:16:14 - WARNING - URL check failed for researchgate.net with status code: 403
+2024-11-25 22:16:14 - ERROR - SSL Error with un.org: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\domains_check_MT.py", line 59, in check_certificate
+    with context.wrap_socket(sock, server_hostname=hostname) as ssock:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+2024-11-25 22:16:14 - INFO - URL check successful for vk.com
+2024-11-25 22:16:14 - INFO - SSL certificate valid for wiley.com: expires 2025-11-22 23:59:59+00:00
+2024-11-25 22:16:14 - INFO - SSL certificate valid for workspaceupdates.googleblog.com: expires 2025-01-13 08:37:12+00:00
+2024-11-25 22:16:14 - INFO - URL check successful for bing.com
+2024-11-25 22:16:14 - INFO - SSL certificate valid for oracle.com: expires 2025-02-25 23:59:59+00:00
+2024-11-25 22:16:14 - INFO - URL check successful for harvard.edu
+2024-11-25 22:16:14 - ERROR - Request error for f5.com: HTTPSConnectionPool(host='www.f5.com', port=443): Read timed out. (read timeout=1)
+2024-11-25 22:16:15 - INFO - SSL certificate valid for springer.com: expires 2025-02-01 06:12:36+00:00
+2024-11-25 22:16:15 - INFO - SSL certificate valid for shopify.com: expires 2025-01-30 16:37:19+00:00
+2024-11-25 22:16:15 - INFO - SSL certificate valid for bloomberg.com: expires 2025-11-03 23:59:59+00:00
+2024-11-25 22:16:15 - INFO - URL check successful for weebly.com
+2024-11-25 22:16:15 - WARNING - URL check failed for reuters.com with status code: 401
+2024-11-25 22:16:15 - INFO - SSL certificate valid for accounts.google.com: expires 2025-01-13 08:38:45+00:00
+2024-11-25 22:16:15 - INFO - URL check successful for mit.edu
+2024-11-25 22:16:15 - INFO - SSL certificate valid for wsj.com: expires 2025-09-02 23:59:59+00:00
+2024-11-25 22:16:15 - INFO - URL check successful for doi.org
+2024-11-25 22:16:15 - WARNING - URL check failed for imdb.com with status code: 403
+2024-11-25 22:16:15 - INFO - URL check successful for shopify.com
+2024-11-25 22:16:15 - INFO - URL check successful for workspaceupdates.googleblog.com
+2024-11-25 22:16:15 - INFO - SSL certificate valid for ibm.com: expires 2025-10-18 23:59:59+00:00
+2024-11-25 22:16:15 - WARNING - URL check failed for wiley.com with status code: 403
+2024-11-25 22:16:15 - WARNING - URL check failed for wsj.com with status code: 404
+2024-11-25 22:16:15 - INFO - URL check successful for springer.com
+2024-11-25 22:16:15 - INFO - URL check successful for nature.com
+2024-11-25 22:16:15 - INFO - SSL certificate valid for gnu.org: expires 2025-02-11 08:04:25+00:00
+2024-11-25 22:16:15 - ERROR - Request error for washingtonpost.com: HTTPSConnectionPool(host='www.washingtonpost.com', port=443): Read timed out. (read timeout=1)
+2024-11-25 22:16:15 - WARNING - URL check failed for un.org with status code: 403
+2024-11-25 22:16:15 - INFO - URL check successful for accounts.google.com
+2024-11-25 22:16:16 - INFO - SSL certificate valid for weibo.com: expires 2025-06-07 23:59:59+00:00
+2024-11-25 22:16:16 - INFO - URL check successful for wikimedia.org
+2024-11-25 22:16:16 - INFO - URL check successful for bloomberg.com
+2024-11-25 22:16:16 - INFO - SSL certificate valid for php.net: expires 2025-01-27 05:31:13+00:00
+2024-11-25 22:16:16 - INFO - URL check successful for gnu.org
+2024-11-25 22:16:16 - INFO - URL check successful for oracle.com
+2024-11-25 22:16:16 - INFO - SSL certificate valid for stanford.edu: expires 2025-05-01 23:59:59+00:00
+2024-11-25 22:16:17 - INFO - URL check successful for ibm.com
+2024-11-25 22:16:18 - INFO - URL check successful for php.net
+2024-11-25 22:16:18 - INFO - URL check successful for cdc.gov
+2024-11-25 22:16:18 - ERROR - SSL Error with amazonaws.com: [WinError 10061] No connection could be made because the target machine actively refused it
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\domains_check_MT.py", line 58, in check_certificate
+    with socket.create_connection((hostname, 443)) as sock:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2024-11-25 22:16:18 - INFO - URL check successful for stanford.edu
+2024-11-25 22:16:19 - INFO - URL check successful for weibo.com
+2024-11-25 22:16:19 - INFO - URL check successful for amazonaws.com
+2024-11-25 22:16:30 - ERROR - SSL Error with macromedia.com: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\domains_check_MT.py", line 58, in check_certificate
+    with socket.create_connection((hostname, 443)) as sock:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-25 22:16:31 - ERROR - Request error for macromedia.com: HTTPConnectionPool(host='macromedia.com', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001CC55B70950>, 'Connection to macromedia.com timed out. (connect timeout=1)'))
+2024-11-25 22:16:31 - INFO - All URLs processed
+2024-11-25 22:16:31 - INFO - Results: [{'url': 'github.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-03-07 23:59:59', 'issuer': 'Sectigo ECC Domain Validation Secure Server CA'}, {'url': 'googletagmanager.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'youtube.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}, {'url': 'linkedin.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-04-14 23:59:59', 'issuer': 'DigiCert SHA2 Secure Server CA'}, {'url': 'bit.ly', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-05-06 23:59:59', 'issuer': 'DigiCert EV RSA CA G2'}, {'url': 'google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}, {'url': 'apple.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-12 20:09:50', 'issuer': 'Apple Public EV Server ECC CA 1 - G1'}, {'url': 'facebook.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-02 23:59:59', 'issuer': 'DigiCert SHA2 High Assurance Server CA'}, {'url': 'pinterest.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-08-07 23:59:59', 'issuer': 'DigiCert Global G2 TLS RSA SHA256 2020 CA1'}, {'url': 'youtu.be', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}, {'url': 'vimeo.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-21 10:29:55', 'issuer': 'WE1'}, {'url': 'play.google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}, {'url': 'microsoft.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-04-22 15:47:07', 'issuer': 'Microsoft Azure RSA TLS Issuing CA 08'}, {'url': 'maps.google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}, {'url': 'docs.google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}, {'url': 'instagram.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-02 23:59:59', 'issuer': 'DigiCert SHA2 High Assurance Server CA'}, {'url': 'twitter.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-09-29 23:59:59', 'issuer': 'DigiCert Global G2 TLS RSA SHA256 2020 CA1'}, {'url': 'api.whatsapp.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'wordpress.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-11 13:10:36', 'issuer': 'E5'}, {'url': 'wordpress.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-31 23:59:59', 'issuer': 'Sectigo ECC Domain Validation Secure Server CA'}, {'url': 'plus.google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}, {'url': 'apps.apple.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-14 19:39:31', 'issuer': 'Apple Public EV Server RSA CA 2 - G1'}, {'url': 'adobe.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'goo.gl', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}, {'url': 'x.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-09-29 23:59:59', 'issuer': 'DigiCert Global G2 TLS RSA SHA256 2020 CA1'}, {'url': 'tiktok.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-08-26 23:59:59', 'issuer': 'RapidSSL TLS RSA CA G1'}, {'url': 'drive.google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}, {'url': 'en.wikipedia.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-10-17 23:59:59', 'issuer': 'DigiCert TLS Hybrid ECC SHA384 2020 CA1'}, {'url': 'player.vimeo.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-21 10:29:55', 'issuer': 'WE1'}, {'url': 'whatsapp.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-02 23:59:59', 'issuer': 'DigiCert SHA2 High Assurance Server CA'}, {'url': 'amazon.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'blogspot.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:37:37', 'issuer': 'WR2'}, {'url': 'europa.eu', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-08-10 12:06:07', 'issuer': 'GlobalSign RSA OV SSL CA 2018'}, {'url': 'mozilla.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-13 14:40:25', 'issuer': 'WR3'}, {'url': 'policies.google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}, {'url': 'cloudflare.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-23 18:53:12', 'issuer': 'WE1'}, {'url': 'wa.me', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-02 23:59:59', 'issuer': 'DigiCert SHA2 High Assurance Server CA'}, {'url': 'apache.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-20 07:42:40', 'issuer': 'R10'}, {'url': 'forms.gle', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'itunes.apple.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-14 19:39:31', 'issuer': 'Apple Public EV Server RSA CA 2 - G1'}, {'url': 'github.io', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-03-14 23:59:59', 'issuer': 'DigiCert Global G2 TLS RSA SHA256 2020 CA1'}, {'url': 't.me', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-11-07 19:51:28', 'issuer': 'Go Daddy Secure Certificate Authority - G2'}, {'url': 'medium.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-23 18:56:38', 'issuer': 'WE1'}, {'url': 'spotify.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-04 23:59:59', 'issuer': 'DigiCert Global G2 TLS RSA SHA256 2020 CA1'}, {'url': 'reddit.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-04-11 23:59:59', 'issuer': 'DigiCert TLS RSA SHA256 2020 CA1'}, {'url': 'miit.gov.cn', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'wikipedia.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-10-17 23:59:59', 'issuer': 'DigiCert TLS Hybrid ECC SHA384 2020 CA1'}, {'url': 'nih.gov', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'tumblr.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-03-26 23:59:59', 'issuer': 'Sectigo ECC Domain Validation Secure Server CA'}, {'url': 'flickr.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-03-04 23:59:59', 'issuer': 'Amazon RSA 2048 M02'}, {'url': 'gravatar.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-04 23:59:59', 'issuer': 'Sectigo ECC Domain Validation Secure Server CA'}, {'url': 'nytimes.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-03-13 23:59:59', 'issuer': 'Thawte RSA CA 2018'}, {'url': 'soundcloud.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-03-09 12:22:14', 'issuer': 'GlobalSign GCC R3 DV TLS CA 2020'}, {'url': 'archive.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-23 14:17:22', 'issuer': 'Go Daddy Secure Certificate Authority - G2'}, {'url': 'nginx.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-02 08:59:20', 'issuer': 'R11'}, {'url': 'office.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-09-13 16:26:36', 'issuer': 'Microsoft Azure RSA TLS Issuing CA 04'}, {'url': 'maps.app.goo.gl', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'creativecommons.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-18 03:18:38', 'issuer': 'WE1'}, {'url': 'open.spotify.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-18 01:12:53', 'issuer': 'Certainly Intermediate R1'}, {'url': 'w3.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-31 23:59:59', 'issuer': 'Cloudflare Inc ECC CA-3'}, {'url': 't.co', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-27 14:58:35', 'issuer': 'E5'}, {'url': 'theguardian.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-10-18 10:57:40', 'issuer': 'GlobalSign Atlas R3 DV TLS CA 2024 Q3'}, {'url': 'qq.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'forbes.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'sites.google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}, {'url': 'sciencedirect.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'nginx.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'wixsite.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'zoom.us', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-04-05 23:59:59', 'issuer': 'DigiCert Global G2 TLS RSA SHA256 2020 CA1'}, {'url': 'baidu.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'paypal.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-08-06 23:59:59', 'issuer': 'DigiCert SHA2 Extended Validation Server CA'}, {'url': 'httpd.apache.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-02 08:43:03', 'issuer': 'R11'}, {'url': 'sourceforge.net', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-31 23:59:59', 'issuer': 'Cloudflare Inc ECC CA-3'}, {'url': 'www.ncbi.nlm.nih.gov', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-08-02 21:41:30', 'issuer': 'Go Daddy Secure Certificate Authority - G2'}, {'url': 'm.facebook.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-02 23:59:59', 'issuer': 'DigiCert SHA2 High Assurance Server CA'}, {'url': 'live.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-03-10 23:59:59', 'issuer': 'DigiCert Cloud Services CA-1'}, {'url': 'cnn.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-10-29 19:18:29', 'issuer': 'GlobalSign Atlas R3 DV TLS CA 2024 Q3'}, {'url': 'beian.miit.gov.cn', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'web.archive.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-23 14:17:22', 'issuer': 'Go Daddy Secure Certificate Authority - G2'}, {'url': 'who.int', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-18 07:41:00', 'issuer': 'WE1'}, {'url': 'tinyurl.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-21 00:39:02', 'issuer': 'WE1'}, {'url': 'ec.europa.eu', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-08-03 13:21:01', 'issuer': 'GlobalSign RSA OV SSL CA 2018'}, {'url': 'opera.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-09 23:59:59', 'issuer': 'DigiCert TLS Hybrid ECC SHA384 2020 CA1'}, {'url': 'youtube-nocookie.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'bbc.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-07-19 06:26:04', 'issuer': 'GlobalSign RSA OV SSL CA 2018'}, {'url': 'issuu.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'bbc.co.uk', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-07-19 06:26:04', 'issuer': 'GlobalSign RSA OV SSL CA 2018'}, {'url': 'yahoo.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-15 23:59:59', 'issuer': 'DigiCert SHA2 High Assurance Server CA'}, {'url': 'dropbox.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-12-08 23:59:59', 'issuer': 'DigiCert TLS RSA SHA256 2020 CA1'}, {'url': 'googleblog.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:37:12', 'issuer': 'WR2'}, {'url': 'researchgate.net', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'vk.com', 'status_code': 'OK', 'ssl_status': 'failed', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'bing.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-03-15 23:16:19', 'issuer': 'Microsoft Azure RSA TLS Issuing CA 03'}, {'url': 'harvard.edu', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-26 15:24:12', 'issuer': 'E5'}, {'url': 'f5.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'weebly.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-26 18:44:57', 'issuer': 'E5'}, {'url': 'reuters.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'mit.edu', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-06-28 23:59:59', 'issuer': 'GeoTrust RSA CA 2018'}, {'url': 'doi.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-04 12:16:25', 'issuer': 'WE1'}, {'url': 'imdb.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'shopify.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-30 16:37:19', 'issuer': 'WE1'}, {'url': 'workspaceupdates.googleblog.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:37:12', 'issuer': 'WR2'}, {'url': 'wiley.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'wsj.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'springer.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-01 06:12:36', 'issuer': 'R10'}, {'url': 'nature.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-01 07:02:58', 'issuer': 'R10'}, {'url': 'washingtonpost.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'un.org', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'accounts.google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:38:45', 'issuer': 'WR2'}, {'url': 'wikimedia.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-10-17 23:59:59', 'issuer': 'DigiCert TLS Hybrid ECC SHA384 2020 CA1'}, {'url': 'bloomberg.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-11-03 23:59:59', 'issuer': 'DigiCert Global G2 TLS RSA SHA256 2020 CA1'}, {'url': 'gnu.org', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-11 08:04:25', 'issuer': 'R11'}, {'url': 'oracle.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-25 23:59:59', 'issuer': 'DigiCert TLS RSA SHA256 2020 CA1'}, {'url': 'ibm.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-10-18 23:59:59', 'issuer': 'DigiCert TLS RSA SHA256 2020 CA1'}, {'url': 'php.net', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-27 05:31:13', 'issuer': 'E6'}, {'url': 'cdc.gov', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-08-08 14:04:00', 'issuer': 'Entrust Certification Authority - L1K'}, {'url': 'stanford.edu', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-05-01 23:59:59', 'issuer': 'InCommon RSA Server CA 2'}, {'url': 'weibo.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-06-07 23:59:59', 'issuer': 'GeoTrust CN RSA CA G1'}, {'url': 'amazonaws.com', 'status_code': 'OK', 'ssl_status': 'failed', 'expiration_date': 'unknown', 'issuer': 'unknown'}, {'url': 'macromedia.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}]
+2024-11-25 22:16:42 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:16:42 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:16:42 - INFO - SSL certificate valid for wordpress.com: expires 2025-02-11 13:10:36+00:00
+2024-11-25 22:16:43 - INFO - URL check successful for wordpress.com
+2024-11-25 22:16:43 - INFO - All URLs processed
+2024-11-25 22:16:43 - INFO - Results: [{'url': 'wordpress.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-11 13:10:36', 'issuer': 'E5'}]
+2024-11-25 22:16:55 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:16:55 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:16:56 - ERROR - SSL Error with wordpress.co.il: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\domains_check_MT.py", line 59, in check_certificate
+    with context.wrap_socket(sock, server_hostname=hostname) as ssock:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 455, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1041, in _create
+    self.do_handshake()
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\ssl.py", line 1319, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)
+2024-11-25 22:16:58 - INFO - URL check successful for wordpress.co.il
+2024-11-25 22:16:58 - INFO - All URLs processed
+2024-11-25 22:16:58 - INFO - Results: [{'url': 'wordpress.co.il', 'status_code': 'OK', 'ssl_status': 'failed', 'expiration_date': 'unknown', 'issuer': 'unknown'}]
+2024-11-25 22:21:36 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:21:36 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:21:37 - ERROR - SSL Error with weibo.co.il: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\domains_check_MT.py", line 58, in check_certificate
+    with socket.create_connection((hostname, 443)) as sock:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 841, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2024-11-25 22:21:37 - ERROR - Request error for weibo.co.il: HTTPConnectionPool(host='weibo.co.il', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000154B5C395B0>: Failed to resolve 'weibo.co.il' ([Errno 11001] getaddrinfo failed)"))
+2024-11-25 22:21:37 - INFO - All URLs processed
+2024-11-25 22:21:37 - INFO - Results: [{'url': 'weibo.co.il', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}]
+2024-11-25 22:21:55 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:21:55 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:21:55 - INFO - SSL certificate valid for nesher.co.il: expires 2025-02-18 12:25:20+00:00
+2024-11-25 22:21:57 - INFO - URL check successful for nesher.co.il
+2024-11-25 22:21:57 - INFO - All URLs processed
+2024-11-25 22:21:57 - INFO - Results: [{'url': 'nesher.co.il', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-18 12:25:20', 'issuer': 'R10'}]
+2024-11-25 22:23:10 - INFO - Successful regular login for user: raziel
+2024-11-25 22:23:29 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:23:29 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:23:29 - INFO - SSL certificate valid for google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:23:30 - ERROR - Request error for google.com: HTTPConnectionPool(host='www.google.com', port=80): Read timed out. (read timeout=1)
+2024-11-25 22:23:30 - INFO - All URLs processed
+2024-11-25 22:23:30 - INFO - Results: [{'url': 'google.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}]
+2024-11-25 22:23:40 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:23:40 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:23:40 - INFO - SSL certificate valid for google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:23:41 - ERROR - Request error for google.com: HTTPConnectionPool(host='www.google.com', port=80): Read timed out. (read timeout=1)
+2024-11-25 22:23:41 - INFO - All URLs processed
+2024-11-25 22:23:41 - INFO - Results: [{'url': 'google.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}]
+2024-11-25 22:23:54 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:23:54 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:23:54 - INFO - SSL certificate valid for google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:23:55 - INFO - URL check successful for google.com
+2024-11-25 22:23:55 - INFO - All URLs processed
+2024-11-25 22:23:55 - INFO - Results: [{'url': 'google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}]
+2024-11-25 22:24:01 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:24:01 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:24:02 - INFO - SSL certificate valid for facebook.com: expires 2024-12-02 23:59:59+00:00
+2024-11-25 22:24:02 - INFO - URL check successful for facebook.com
+2024-11-25 22:24:02 - INFO - All URLs processed
+2024-11-25 22:24:02 - INFO - Results: [{'url': 'facebook.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-02 23:59:59', 'issuer': 'DigiCert SHA2 High Assurance Server CA'}]
+2024-11-25 22:28:18 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:28:18 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:28:18 - ERROR - SSL Error with google.con: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\domains_check_MT.py", line 58, in check_certificate
+    with socket.create_connection((hostname, 443)) as sock:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 841, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 976, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2024-11-25 22:28:18 - ERROR - Request error for google.con: HTTPConnectionPool(host='google.con', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001CC6D183A40>: Failed to resolve 'google.con' ([Errno 11001] getaddrinfo failed)"))
+2024-11-25 22:28:18 - INFO - All URLs processed
+2024-11-25 22:28:18 - INFO - Results: [{'url': 'google.con', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}]
+2024-11-25 22:28:18 - INFO - Successfully updated domains for user: raziel
+2024-11-25 22:28:25 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:28:25 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:28:25 - INFO - SSL certificate valid for google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:28:26 - INFO - URL check successful for google.com
+2024-11-25 22:28:26 - INFO - All URLs processed
+2024-11-25 22:28:26 - INFO - Results: [{'url': 'google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}]
+2024-11-25 22:28:26 - INFO - Successfully updated domains for user: raziel
+2024-11-25 22:28:41 - INFO - User logged out: raziel
+2024-11-25 22:28:48 - INFO - Successful regular login for user: raziel
+2024-11-25 22:29:02 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:29:02 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:29:02 - INFO - SSL certificate valid for nesher.co.il: expires 2025-02-18 12:25:20+00:00
+2024-11-25 22:29:04 - INFO - URL check successful for nesher.co.il
+2024-11-25 22:29:04 - INFO - All URLs processed
+2024-11-25 22:29:04 - INFO - Results: [{'url': 'nesher.co.il', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-18 12:25:20', 'issuer': 'R10'}]
+2024-11-25 22:29:04 - INFO - Successfully updated domains for user: raziel
+2024-11-25 22:34:48 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:34:48 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:34:48 - INFO - SSL certificate valid for facebook.com: expires 2024-12-03 23:59:59+00:00
+2024-11-25 22:34:49 - INFO - URL check successful for facebook.com
+2024-11-25 22:34:49 - INFO - All URLs processed
+2024-11-25 22:34:49 - INFO - Results: [{'url': 'facebook.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-03 23:59:59', 'issuer': 'DigiCert SHA2 High Assurance Server CA'}]
+2024-11-25 22:34:49 - INFO - Successfully updated domains for user: raziel
+2024-11-25 22:38:57 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:38:57 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:38:57 - INFO - SSL certificate valid for facebook.com: expires 2024-12-03 23:59:59+00:00
+2024-11-25 22:38:58 - INFO - URL check successful for facebook.com
+2024-11-25 22:38:58 - INFO - All URLs processed
+2024-11-25 22:38:58 - INFO - Results: [{'url': 'facebook.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-03 23:59:59', 'issuer': 'DigiCert SHA2 High Assurance Server CA'}]
+2024-11-25 22:38:58 - INFO - Successfully updated domains for user: raziel
+2024-11-25 22:43:56 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:43:56 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:43:56 - INFO - SSL certificate valid for walla.co.il: expires 2024-12-15 06:29:25+00:00
+2024-11-25 22:43:57 - INFO - URL check successful for walla.co.il
+2024-11-25 22:43:57 - INFO - All URLs processed
+2024-11-25 22:43:57 - INFO - Results: [{'url': 'walla.co.il', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-15 06:29:25', 'issuer': 'R10'}]
+2024-11-25 22:43:57 - WARNING - Domain None not found for updating
+2024-11-25 22:43:57 - INFO - Successfully updated domains for user: raziel
+2024-11-25 22:53:22 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:53:22 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:53:22 - INFO - SSL certificate valid for youtube.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:53:23 - INFO - URL check successful for youtube.com
+2024-11-25 22:53:23 - INFO - All URLs processed
+2024-11-25 22:53:23 - INFO - Results: [{'url': 'youtube.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}]
+2024-11-25 22:53:23 - ERROR - Error updating domains for raziel: 'dict' object has no attribute 'append'
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\DataManagement.py", line 54, in update_domains
+    current_domains.append(new_domain)
+    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'append'
+2024-11-25 22:53:23 - WARNING - Failed to update domains for user: raziel
+2024-11-25 22:55:00 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 22:55:00 - INFO - Starting 20 threads for URL processing
+2024-11-25 22:55:00 - INFO - SSL certificate valid for youtube.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 22:55:01 - INFO - URL check successful for youtube.com
+2024-11-25 22:55:01 - INFO - All URLs processed
+2024-11-25 22:55:01 - INFO - Results: [{'url': 'youtube.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}]
+2024-11-25 22:55:01 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:02:43 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:02:43 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:02:43 - INFO - SSL certificate valid for mako.co.il: expires 2025-09-04 23:59:59+00:00
+2024-11-25 23:02:44 - INFO - URL check successful for mako.co.il
+2024-11-25 23:02:44 - INFO - All URLs processed
+2024-11-25 23:02:44 - INFO - Results: [{'url': 'mako.co.il', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-09-04 23:59:59', 'issuer': 'Thawte TLS RSA CA G1'}]
+2024-11-25 23:02:44 - ERROR - Error updating domains for user raziel: 'url_to_replace'
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\DataManagement.py", line 49, in update_domains
+    if current_domain['url'] == new_domain['url_to_replace']:
+                                ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'url_to_replace'
+2024-11-25 23:02:44 - WARNING - Failed to update domains for user: raziel
+2024-11-25 23:03:02 - INFO - Successful regular login for user: raziel
+2024-11-25 23:03:15 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:03:15 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:03:15 - INFO - SSL certificate valid for mako.co.il: expires 2025-09-04 23:59:59+00:00
+2024-11-25 23:03:15 - INFO - URL check successful for mako.co.il
+2024-11-25 23:03:15 - INFO - All URLs processed
+2024-11-25 23:03:15 - INFO - Results: [{'url': 'mako.co.il', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-09-04 23:59:59', 'issuer': 'Thawte TLS RSA CA G1'}]
+2024-11-25 23:03:15 - ERROR - Error updating domains for user raziel: 'url_to_replace'
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\DataManagement.py", line 49, in update_domains
+    if current_domain['url'] == new_domain['url_to_replace']:
+                                ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'url_to_replace'
+2024-11-25 23:03:15 - WARNING - Failed to update domains for user: raziel
+2024-11-25 23:14:24 - INFO - Successful regular login for user: raziel
+2024-11-25 23:14:33 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:14:33 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:14:35 - INFO - SSL certificate valid for mako.com: expires 2025-02-13 10:15:26+00:00
+2024-11-25 23:14:37 - INFO - URL check successful for mako.com
+2024-11-25 23:14:37 - INFO - All URLs processed
+2024-11-25 23:14:37 - INFO - Results: [{'url': 'mako.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-13 10:15:26', 'issuer': 'R10'}]
+2024-11-25 23:14:37 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:18:19 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:18:19 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:18:20 - INFO - SSL certificate valid for ebay.com: expires 2025-02-25 23:59:59+00:00
+2024-11-25 23:18:21 - INFO - URL check successful for ebay.com
+2024-11-25 23:18:21 - INFO - All URLs processed
+2024-11-25 23:18:21 - INFO - Results: [{'url': 'ebay.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-25 23:59:59', 'issuer': 'Sectigo RSA Organization Validation Secure Server CA'}]
+2024-11-25 23:18:21 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:20:20 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:20:20 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:20:20 - INFO - SSL certificate valid for instagram.com: expires 2024-12-03 23:59:59+00:00
+2024-11-25 23:20:21 - INFO - URL check successful for instagram.com
+2024-11-25 23:20:21 - INFO - All URLs processed
+2024-11-25 23:20:21 - INFO - Results: [{'url': 'instagram.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-03 23:59:59', 'issuer': 'DigiCert SHA2 High Assurance Server CA'}]
+2024-11-25 23:20:21 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:22:10 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:22:10 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:22:11 - INFO - SSL certificate valid for stockx.com: expires 2024-12-31 23:59:59+00:00
+2024-11-25 23:22:11 - WARNING - URL check failed for stockx.com with status code: 403
+2024-11-25 23:22:11 - INFO - All URLs processed
+2024-11-25 23:22:11 - INFO - Results: [{'url': 'stockx.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}]
+2024-11-25 23:22:11 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:24:43 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:24:43 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:24:43 - INFO - SSL certificate valid for nike.com: expires 2025-07-19 23:59:59+00:00
+2024-11-25 23:24:44 - INFO - URL check successful for nike.com
+2024-11-25 23:24:44 - INFO - All URLs processed
+2024-11-25 23:24:44 - INFO - Results: [{'url': 'nike.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-07-19 23:59:59', 'issuer': 'Amazon RSA 2048 M02'}]
+2024-11-25 23:24:44 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:26:42 - INFO - Successful regular login for user: raziel
+2024-11-25 23:28:06 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:28:06 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:28:06 - INFO - SSL certificate valid for yes.co.il: expires 2025-08-12 23:59:59+00:00
+2024-11-25 23:28:07 - INFO - URL check successful for yes.co.il
+2024-11-25 23:28:07 - INFO - All URLs processed
+2024-11-25 23:28:07 - INFO - Results: [{'url': 'yes.co.il', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-08-12 23:59:59', 'issuer': 'Amazon RSA 2048 M02'}]
+2024-11-25 23:28:07 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:29:22 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:29:22 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:29:22 - INFO - SSL certificate valid for ynet.co.il: expires 2025-10-31 23:59:59+00:00
+2024-11-25 23:29:23 - INFO - URL check successful for ynet.co.il
+2024-11-25 23:29:23 - INFO - All URLs processed
+2024-11-25 23:29:23 - INFO - Results: [{'url': 'ynet.co.il', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-10-31 23:59:59', 'issuer': 'DigiCert TLS RSA SHA256 2020 CA1'}]
+2024-11-25 23:29:23 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:34:57 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:34:57 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:34:59 - INFO - SSL certificate valid for cbtnuggets.com: expires 2025-07-09 23:59:59+00:00
+2024-11-25 23:35:00 - INFO - URL check successful for cbtnuggets.com
+2024-11-25 23:35:00 - INFO - All URLs processed
+2024-11-25 23:35:00 - INFO - Results: [{'url': 'cbtnuggets.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-07-09 23:59:59', 'issuer': 'Amazon RSA 2048 M03'}]
+2024-11-25 23:35:00 - ERROR - Error updating domains for user raziel: Missing 'old_url' for domain replacement.
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\DataManagement.py", line 47, in update_domains
+    raise ValueError("Missing 'old_url' for domain replacement.")
+ValueError: Missing 'old_url' for domain replacement.
+2024-11-25 23:35:00 - WARNING - Failed to update domains for user: raziel
+2024-11-25 23:44:50 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:44:50 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:44:51 - INFO - SSL certificate valid for google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 23:44:52 - INFO - URL check successful for google.com
+2024-11-25 23:44:52 - INFO - All URLs processed
+2024-11-25 23:44:52 - INFO - Results: [{'url': 'google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}]
+2024-11-25 23:44:52 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:44:57 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:44:57 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:44:57 - INFO - SSL certificate valid for amazon.com: expires 2025-07-27 23:59:59+00:00
+2024-11-25 23:44:58 - WARNING - URL check failed for amazon.com with status code: 503
+2024-11-25 23:44:58 - INFO - All URLs processed
+2024-11-25 23:44:58 - INFO - Results: [{'url': 'amazon.com', 'status_code': 'FAILED', 'ssl_status': 'unknown', 'expiration_date': 'unknown', 'issuer': 'unknown'}]
+2024-11-25 23:44:58 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:45:02 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:45:02 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:45:02 - INFO - SSL certificate valid for facebook.com: expires 2024-12-03 23:59:59+00:00
+2024-11-25 23:45:03 - INFO - URL check successful for facebook.com
+2024-11-25 23:45:03 - INFO - All URLs processed
+2024-11-25 23:45:03 - INFO - Results: [{'url': 'facebook.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-03 23:59:59', 'issuer': 'DigiCert SHA2 High Assurance Server CA'}]
+2024-11-25 23:45:03 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:45:09 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:45:09 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:45:09 - INFO - SSL certificate valid for youtube.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 23:45:10 - INFO - URL check successful for youtube.com
+2024-11-25 23:45:10 - INFO - All URLs processed
+2024-11-25 23:45:10 - INFO - Results: [{'url': 'youtube.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}]
+2024-11-25 23:45:10 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:45:17 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:45:17 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:45:17 - INFO - SSL certificate valid for ebay.com: expires 2025-02-25 23:59:59+00:00
+2024-11-25 23:45:19 - INFO - URL check successful for ebay.com
+2024-11-25 23:45:19 - INFO - All URLs processed
+2024-11-25 23:45:19 - INFO - Results: [{'url': 'ebay.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-25 23:59:59', 'issuer': 'Sectigo RSA Organization Validation Secure Server CA'}]
+2024-11-25 23:45:19 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:46:43 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:46:43 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:46:43 - INFO - SSL certificate valid for walla.com: expires 2025-02-10 20:56:40+00:00
+2024-11-25 23:46:43 - INFO - URL check successful for walla.com
+2024-11-25 23:46:43 - INFO - All URLs processed
+2024-11-25 23:46:43 - INFO - Results: [{'url': 'walla.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-10 20:56:40', 'issuer': 'WR3'}]
+2024-11-25 23:46:43 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:48:24 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:48:24 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:48:25 - INFO - SSL certificate valid for ebay.com: expires 2025-02-25 23:59:59+00:00
+2024-11-25 23:48:26 - INFO - URL check successful for ebay.com
+2024-11-25 23:48:26 - INFO - All URLs processed
+2024-11-25 23:48:26 - INFO - Results: [{'url': 'ebay.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-25 23:59:59', 'issuer': 'Sectigo RSA Organization Validation Secure Server CA'}]
+2024-11-25 23:48:26 - INFO - Domain ebay.com updated for user raziel
+2024-11-25 23:48:26 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:48:51 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:48:51 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:48:51 - INFO - SSL certificate valid for walla.co.il: expires 2024-12-15 06:29:25+00:00
+2024-11-25 23:48:51 - INFO - URL check successful for walla.co.il
+2024-11-25 23:48:51 - INFO - All URLs processed
+2024-11-25 23:48:51 - INFO - Results: [{'url': 'walla.co.il', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-15 06:29:25', 'issuer': 'R10'}]
+2024-11-25 23:48:51 - INFO - Domain walla.co.il updated for user raziel
+2024-11-25 23:48:51 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:49:23 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:49:23 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:49:23 - INFO - SSL certificate valid for google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 23:49:24 - INFO - URL check successful for google.com
+2024-11-25 23:49:24 - INFO - All URLs processed
+2024-11-25 23:49:24 - INFO - Results: [{'url': 'google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}]
+2024-11-25 23:49:24 - INFO - Domain google.com added for user raziel
+2024-11-25 23:49:24 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:49:32 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:49:32 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:49:32 - INFO - SSL certificate valid for youtube.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 23:49:32 - INFO - URL check successful for youtube.com
+2024-11-25 23:49:32 - INFO - All URLs processed
+2024-11-25 23:49:32 - INFO - Results: [{'url': 'youtube.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}]
+2024-11-25 23:49:32 - INFO - Domain youtube.com updated for user raziel
+2024-11-25 23:49:32 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:49:37 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:49:37 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:49:37 - INFO - SSL certificate valid for facebook.com: expires 2024-12-03 23:59:59+00:00
+2024-11-25 23:49:38 - INFO - URL check successful for facebook.com
+2024-11-25 23:49:38 - INFO - All URLs processed
+2024-11-25 23:49:38 - INFO - Results: [{'url': 'facebook.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2024-12-03 23:59:59', 'issuer': 'DigiCert SHA2 High Assurance Server CA'}]
+2024-11-25 23:49:38 - INFO - Domain facebook.com updated for user raziel
+2024-11-25 23:49:38 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:49:46 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:49:46 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:49:46 - INFO - SSL certificate valid for ebay.com: expires 2025-02-25 23:59:59+00:00
+2024-11-25 23:49:47 - INFO - URL check successful for ebay.com
+2024-11-25 23:49:47 - INFO - All URLs processed
+2024-11-25 23:49:47 - INFO - Results: [{'url': 'ebay.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-02-25 23:59:59', 'issuer': 'Sectigo RSA Organization Validation Secure Server CA'}]
+2024-11-25 23:49:47 - INFO - Domain ebay.com updated for user raziel
+2024-11-25 23:49:47 - INFO - Successfully updated domains for user: raziel
+2024-11-25 23:50:02 - INFO - Starting multi-threaded check for 1 domains for user: raziel
+2024-11-25 23:50:02 - INFO - Starting 20 threads for URL processing
+2024-11-25 23:50:02 - INFO - SSL certificate valid for google.com: expires 2025-01-13 08:36:56+00:00
+2024-11-25 23:50:03 - INFO - URL check successful for google.com
+2024-11-25 23:50:03 - INFO - All URLs processed
+2024-11-25 23:50:03 - INFO - Results: [{'url': 'google.com', 'status_code': 'OK', 'ssl_status': 'valid', 'expiration_date': '2025-01-13 08:36:56', 'issuer': 'WR2'}]
+2024-11-25 23:50:03 - INFO - Domain google.com updated for user raziel
+2024-11-25 23:50:03 - INFO - Successfully updated domains for user: raziel

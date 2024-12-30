@@ -1,0 +1,18 @@
+{
+    "users": [
+        {
+            "username": "raziel",
+            "password": "raziel",
+            "full_name": null,
+            "is_google_user": false,
+            "profile_picture": null
+        },
+        {
+            "username": "test1",
+            "password": "test",
+            "full_name": null,
+            "is_google_user": false,
+            "profile_picture": null
+        }
+    ]
+}

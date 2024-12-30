@@ -1,0 +1,3 @@
+[submodule "DevOpsCourse"]
+    path = DevOpsCourse
+    url = https://github.com/RazielRey/DevOpsCourse

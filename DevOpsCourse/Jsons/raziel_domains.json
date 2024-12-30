@@ -1,0 +1,725 @@
+{
+    "domains": [
+        {
+            "url": "google.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-27 08:37:46",
+            "issuer": "WR2"
+        },
+        {
+            "url": "youtube.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-27 08:37:46",
+            "issuer": "WR2"
+        },
+        {
+            "url": "facebook.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2024-12-22 23:59:59",
+            "issuer": "DigiCert SHA2 High Assurance Server CA"
+        },
+        {
+            "url": "amazon.com",
+            "status_code": "HTTP 503",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        },
+        {
+            "url": "ynet.co.il",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-10-31 23:59:59",
+            "issuer": "DigiCert TLS RSA SHA256 2020 CA1"
+        },
+        {
+            "url": "nesher.co.il",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-18 12:25:20",
+            "issuer": "R10"
+        },
+        {
+            "url": "instagram.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2024-12-22 23:59:59",
+            "issuer": "DigiCert SHA2 High Assurance Server CA"
+        },
+        {
+            "url": "microsoft.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-06-02 08:28:24",
+            "issuer": "Microsoft Azure RSA TLS Issuing CA 08"
+        },
+        {
+            "url": "chatgpt.com",
+            "status_code": "HTTP 403",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        },
+        {
+            "url": "claude.ai",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-28 20:59:15",
+            "issuer": "E6"
+        },
+        {
+            "url": "googletagmanager.com",
+            "status_code": "HTTP 404",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        },
+        {
+            "url": "api.whatsapp.com",
+            "status_code": "HTTP 403",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        },
+        {
+            "url": "github.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-03-07 23:59:59",
+            "issuer": "Sectigo ECC Domain Validation Secure Server CA"
+        },
+        {
+            "url": "adobe.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-07-15 23:59:59",
+            "issuer": "DigiCert TLS RSA SHA256 2020 CA1"
+        },
+        {
+            "url": "forms.gle",
+            "status_code": "HTTP 400",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        },
+        {
+            "url": "tiktok.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-08-26 23:59:59",
+            "issuer": "RapidSSL TLS RSA CA G1"
+        },
+        {
+            "url": "github.io",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-03-14 23:59:59",
+            "issuer": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+        },
+        {
+            "url": "apache.org",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-20 07:42:40",
+            "issuer": "R10"
+        },
+        {
+            "url": "plus.google.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-27 08:37:46",
+            "issuer": "WR2"
+        },
+        {
+            "url": "cloudflare.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-03-09 00:31:24",
+            "issuer": "WE1"
+        },
+        {
+            "url": "bit.ly",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-05-06 23:59:59",
+            "issuer": "DigiCert EV RSA CA G2"
+        },
+        {
+            "url": "maps.google.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-27 08:37:46",
+            "issuer": "WR2"
+        },
+        {
+            "url": "linkedin.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-04-14 23:59:59",
+            "issuer": "DigiCert SHA2 Secure Server CA"
+        },
+        {
+            "url": "medium.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-23 18:56:38",
+            "issuer": "WE1"
+        },
+        {
+            "url": "vimeo.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-21 10:29:55",
+            "issuer": "WE1"
+        },
+        {
+            "url": "x.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-09-29 23:59:59",
+            "issuer": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+        },
+        {
+            "url": "apple.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-12 20:09:50",
+            "issuer": "Apple Public EV Server ECC CA 1 - G1"
+        },
+        {
+            "url": "youtu.be",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-27 08:37:46",
+            "issuer": "WR2"
+        },
+        {
+            "url": "nih.gov",
+            "status_code": "FAILED",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown",
+            "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+        },
+        {
+            "url": "wordpress.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-11 13:10:36",
+            "issuer": "E5"
+        },
+        {
+            "url": "t.me",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-11-07 19:51:28",
+            "issuer": "Go Daddy Secure Certificate Authority - G2"
+        },
+        {
+            "url": "pinterest.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-08-07 23:59:59",
+            "issuer": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+        },
+        {
+            "url": "blogspot.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-27 08:38:28",
+            "issuer": "WR2"
+        },
+        {
+            "url": "miit.gov.cn",
+            "status_code": "FAILED",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown",
+            "error": "HTTPConnectionPool(host='miit.gov.cn', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0x00000293083650A0>: Failed to resolve 'miit.gov.cn' ([Errno 11001] getaddrinfo failed)\"))"
+        },
+        {
+            "url": "soundcloud.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-03-09 12:22:14",
+            "issuer": "GlobalSign GCC R3 DV TLS CA 2020"
+        },
+        {
+            "url": "twitter.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-09-29 23:59:59",
+            "issuer": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+        },
+        {
+            "url": "wa.me",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2024-12-22 23:59:59",
+            "issuer": "DigiCert SHA2 High Assurance Server CA"
+        },
+        {
+            "url": "play.google.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-27 08:37:46",
+            "issuer": "WR2"
+        },
+        {
+            "url": "policies.google.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-27 08:37:46",
+            "issuer": "WR2"
+        },
+        {
+            "url": "whatsapp.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2024-12-22 23:59:59",
+            "issuer": "DigiCert SHA2 High Assurance Server CA"
+        },
+        {
+            "url": "maps.app.goo.gl",
+            "status_code": "HTTP 400",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        },
+        {
+            "url": "docs.google.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-27 08:37:46",
+            "issuer": "WR2"
+        },
+        {
+            "url": "nginx.org",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-02 08:59:20",
+            "issuer": "R11"
+        },
+        {
+            "url": "nytimes.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-03-13 23:59:59",
+            "issuer": "Thawte RSA CA 2018"
+        },
+        {
+            "url": "drive.google.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-27 08:37:46",
+            "issuer": "WR2"
+        },
+        {
+            "url": "w3.org",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-24 00:13:54",
+            "issuer": "WE1"
+        },
+        {
+            "url": "flickr.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-03-04 23:59:59",
+            "issuer": "Amazon RSA 2048 M02"
+        },
+        {
+            "url": "mozilla.org",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-13 14:40:25",
+            "issuer": "WR3"
+        },
+        {
+            "url": "player.vimeo.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-21 10:29:55",
+            "issuer": "WE1"
+        },
+        {
+            "url": "spotify.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-04 23:59:59",
+            "issuer": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+        },
+        {
+            "url": "office.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-06-09 18:09:31",
+            "issuer": "Microsoft Azure RSA TLS Issuing CA 03"
+        },
+        {
+            "url": "itunes.apple.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-04-02 18:31:05",
+            "issuer": "Apple Public EV Server RSA CA 2 - G1"
+        },
+        {
+            "url": "httpd.apache.org",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-03-03 07:48:08",
+            "issuer": "R10"
+        },
+        {
+            "url": "wordpress.org",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-03-02 18:23:41",
+            "issuer": "E6"
+        },
+        {
+            "url": "apps.apple.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-04-02 18:31:05",
+            "issuer": "Apple Public EV Server RSA CA 2 - G1"
+        },
+        {
+            "url": "open.spotify.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-07 00:16:47",
+            "issuer": "Certainly Intermediate R1"
+        },
+        {
+            "url": "reddit.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-04-11 23:59:59",
+            "issuer": "DigiCert TLS RSA SHA256 2020 CA1"
+        },
+        {
+            "url": "sciencedirect.com",
+            "status_code": "HTTP 403",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        },
+        {
+            "url": "qq.com",
+            "status_code": "HTTP 501",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        },
+        {
+            "url": "archive.org",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-23 14:17:22",
+            "issuer": "Go Daddy Secure Certificate Authority - G2"
+        },
+        {
+            "url": "tumblr.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-03-26 23:59:59",
+            "issuer": "Sectigo ECC Domain Validation Secure Server CA"
+        },
+        {
+            "url": "forbes.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-04-07 18:51:31",
+            "issuer": "GlobalSign Atlas R3 DV TLS CA 2024 Q1"
+        },
+        {
+            "url": "gravatar.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-04 23:59:59",
+            "issuer": "Sectigo ECC Domain Validation Secure Server CA"
+        },
+        {
+            "url": "sourceforge.net",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-25 15:43:08",
+            "issuer": "E5"
+        },
+        {
+            "url": "creativecommons.org",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-18 03:18:38",
+            "issuer": "WE1"
+        },
+        {
+            "url": "issuu.com",
+            "status_code": "HTTP 406",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        },
+        {
+            "url": "t.co",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-24 14:17:08",
+            "issuer": "E6"
+        },
+        {
+            "url": "m.facebook.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2024-12-22 23:59:59",
+            "issuer": "DigiCert SHA2 High Assurance Server CA"
+        },
+        {
+            "url": "theguardian.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-10-18 10:57:40",
+            "issuer": "GlobalSign Atlas R3 DV TLS CA 2024 Q3"
+        },
+        {
+            "url": "live.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-12-11 23:59:59",
+            "issuer": "DigiCert Cloud Services CA-1"
+        },
+        {
+            "url": "europa.eu",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-08-10 12:06:07",
+            "issuer": "GlobalSign RSA OV SSL CA 2018"
+        },
+        {
+            "url": "paypal.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-08-06 23:59:59",
+            "issuer": "DigiCert SHA2 Extended Validation Server CA"
+        },
+        {
+            "url": "tinyurl.com",
+            "status_code": "FAILED",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        },
+        {
+            "url": "bbc.co.uk",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-07-19 06:26:04",
+            "issuer": "GlobalSign RSA OV SSL CA 2018"
+        },
+        {
+            "url": "cnn.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-10-29 19:18:29",
+            "issuer": "GlobalSign Atlas R3 DV TLS CA 2024 Q3"
+        },
+        {
+            "url": "goo.gl",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-27 08:37:46",
+            "issuer": "WR2"
+        },
+        {
+            "url": "opera.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2026-01-09 23:59:59",
+            "issuer": "DigiCert TLS Hybrid ECC SHA384 2020 CA1"
+        },
+        {
+            "url": "sites.google.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-27 08:37:46",
+            "issuer": "WR2"
+        },
+        {
+            "url": "baidu.com",
+            "status_code": "FAILED",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        },
+        {
+            "url": "www.ncbi.nlm.nih.gov",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-08-02 21:41:30",
+            "issuer": "Go Daddy Secure Certificate Authority - G2"
+        },
+        {
+            "url": "youtube-nocookie.com",
+            "status_code": "FAILED",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown",
+            "error": "HTTPSConnectionPool(host='youtube-nocookie.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'youtube-nocookie.com'. (_ssl.c:1000)\")))"
+        },
+        {
+            "url": "web.archive.org",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-23 14:17:22",
+            "issuer": "Go Daddy Secure Certificate Authority - G2"
+        },
+        {
+            "url": "who.int",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-18 07:41:00",
+            "issuer": "WE1"
+        },
+        {
+            "url": "vk.com",
+            "status_code": "OK",
+            "ssl_status": "failed",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        },
+        {
+            "url": "weebly.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-26 18:44:57",
+            "issuer": "E5"
+        },
+        {
+            "url": "beian.miit.gov.cn",
+            "status_code": "HTTP 521",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        },
+        {
+            "url": "zoom.us",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-04-05 23:59:59",
+            "issuer": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+        },
+        {
+            "url": "harvard.edu",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-26 15:24:12",
+            "issuer": "E5"
+        },
+        {
+            "url": "f5.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-11-21 21:51:37",
+            "issuer": "Entrust Certification Authority - L1K"
+        },
+        {
+            "url": "nginx.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-02-05 21:32:17",
+            "issuer": "E5"
+        },
+        {
+            "url": "en.wikipedia.org",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-10-17 23:59:59",
+            "issuer": "DigiCert TLS Hybrid ECC SHA384 2020 CA1"
+        },
+        {
+            "url": "https://wixsite.com",
+            "status_code": "FAILED",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown",
+            "error": "HTTPConnectionPool(host='https', port=80): Max retries exceeded with url: /wixsite.com (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0x0000029306A1CCB0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)\"))"
+        },
+        {
+            "url": "https://bbc.com",
+            "status_code": "FAILED",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown",
+            "error": "HTTPConnectionPool(host='https', port=80): Max retries exceeded with url: /bbc.com (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0x0000029309BF56D0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)\"))"
+        },
+        {
+            "url": "wikipedia.org",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-10-17 23:59:59",
+            "issuer": "DigiCert TLS Hybrid ECC SHA384 2020 CA1"
+        },
+        {
+            "url": "https://cdc.gov",
+            "status_code": "FAILED",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown",
+            "error": "HTTPConnectionPool(host='https', port=80): Max retries exceeded with url: /cdc.gov (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0x0000029309C983B0>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)\"))"
+        },
+        {
+            "url": "doi.org",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-03-04 12:46:33",
+            "issuer": "WE1"
+        },
+        {
+            "url": "https://mit.edu",
+            "status_code": "FAILED",
+            "ssl_status": "unknown",
+            "expiration_date": "unknown",
+            "issuer": "unknown",
+            "error": "HTTPConnectionPool(host='https', port=80): Max retries exceeded with url: /mit.edu (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0x0000029309CC2C60>: Failed to resolve 'https' ([Errno 11001] getaddrinfo failed)\"))"
+        },
+        {
+            "url": "googleblog.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-27 08:38:02",
+            "issuer": "WR2"
+        },
+        {
+            "url": "dropbox.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-12-08 23:59:59",
+            "issuer": "DigiCert TLS RSA SHA256 2020 CA1"
+        },
+        {
+            "url": "yahoo.com",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-01-15 23:59:59",
+            "issuer": "DigiCert SHA2 High Assurance Server CA"
+        },
+        {
+            "url": "ec.europa.eu",
+            "status_code": "OK",
+            "ssl_status": "valid",
+            "expiration_date": "2025-08-03 13:21:01",
+            "issuer": "GlobalSign RSA OV SSL CA 2018"
+        },
+        {
+            "url": "amazonaws.com",
+            "status_code": "OK",
+            "ssl_status": "failed",
+            "expiration_date": "unknown",
+            "issuer": "unknown"
+        }
+    ]
+}

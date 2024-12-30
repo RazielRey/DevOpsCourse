@@ -1,0 +1,60 @@
+2024-12-12 09:57:32 - ERROR - [app.py:365] - Error occurred while checking domains: Object of type coroutine is not JSON serializable
+(<class 'TypeError'>, TypeError('Object of type coroutine is not JSON serializable'), <traceback object at 0x000001F865C707C0>)
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\app.py", line 363, in check_domains
+    return jsonify(results)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\__init__.py", line 170, in jsonify
+    return current_app.json.response(*args, **kwargs)  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 214, in response
+    f"{self.dumps(obj, **dump_args)}\n", mimetype=self.mimetype
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 179, in dumps
+    return json.dumps(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\razie\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 121, in _default
+    raise TypeError(f"Object of type {type(o).__name__} is not JSON serializable")
+TypeError: Object of type coroutine is not JSON serializable
+2024-12-12 10:03:31 - ERROR - [app.py:366] - Error occurred while checking domains: name 'check_url_mt' is not defined
+(<class 'NameError'>, NameError("name 'check_url_mt' is not defined"), <traceback object at 0x00000172DC4094C0>)
+Traceback (most recent call last):
+  File "C:\Users\razie\DevOps\DomainMonitoringProject\domain-monitoring-project\app.py", line 352, in check_domains
+    results = asyncio.run(check_url_mt(domains, username))
+                          ^^^^^^^^^^^^
+NameError: name 'check_url_mt' is not defined. Did you mean: 'check_url'?
+2024-12-12 11:52:18 - ERROR - [domains_check_MT.py:67] - SSL check failed for youtube-nocookie.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'youtube-nocookie.com'. (_ssl.c:1000)
+None
+2024-12-12 11:52:19 - ERROR - [domains_check_MT.py:43] - Error checking URL miit.gov.cn: [Errno 11001] getaddrinfo failed
+None
+2024-12-12 11:52:25 - ERROR - [domains_check_MT.py:43] - Error checking URL https://wixsite.com: [Errno 11001] getaddrinfo failed
+None
+2024-12-12 11:52:25 - ERROR - [domains_check_MT.py:43] - Error checking URL https://bbc.com: [Errno 11001] getaddrinfo failed
+None
+2024-12-12 11:52:25 - ERROR - [domains_check_MT.py:43] - Error checking URL https://mit.edu: [Errno 11001] getaddrinfo failed
+None
+2024-12-12 11:52:25 - ERROR - [domains_check_MT.py:43] - Error checking URL https://cdc.gov: [Errno 11001] getaddrinfo failed
+None
+2024-12-12 11:52:27 - ERROR - [domains_check_MT.py:67] - SSL check failed for vk.com: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+None
+2024-12-12 11:52:34 - ERROR - [domains_check_MT.py:67] - SSL check failed for amazonaws.com: timed out
+None
+2024-12-12 11:52:37 - ERROR - [domains_check_MT.py:43] - Error checking URL forbes.com: 
+None
+2024-12-12 11:52:37 - ERROR - [domains_check_MT.py:43] - Error checking URL doi.org: 
+None
+2024-12-12 11:52:38 - ERROR - [domains_check_MT.py:43] - Error checking URL nih.gov: Server disconnected without sending a response.
+None
+2024-12-12 11:52:39 - ERROR - [domains_check_MT.py:43] - Error checking URL harvard.edu: 
+None
+2024-12-12 11:52:39 - ERROR - [domains_check_MT.py:43] - Error checking URL beian.miit.gov.cn: 
+None

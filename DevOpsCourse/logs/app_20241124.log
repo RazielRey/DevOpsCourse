@@ -1,0 +1,10 @@
+2024-11-24 10:37:30 - INFO - Creating new users.json file
+2024-11-24 10:37:30 - INFO - users.json created successfully
+2024-11-24 10:37:30 - WARNING - Failed login attempt - User not found: raziel
+2024-11-24 10:37:41 - INFO - New regular user registered: raziel
+2024-11-24 10:37:49 - INFO - Successful regular login for user: raziel
+2024-11-24 10:37:57 - INFO - Starting multi-threaded check for 1 URLs
+2024-11-24 10:37:57 - INFO - Valid SSL certificate found for google.com
+2024-11-24 10:37:57 - INFO - URL check successful for google.com
+2024-11-24 10:37:57 - INFO - Completed checking 1 URLs
+2024-11-24 10:54:32 - INFO - Successful regular login for user: raziel
