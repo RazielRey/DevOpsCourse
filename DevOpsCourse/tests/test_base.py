@@ -5,8 +5,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import UnexpectedAlertPresentException
 from selenium.common.exceptions import TimeoutException
+import time
 import logging 
 import requests
+from conftest import test_logger as logging
 
 class BaseTest(unittest.TestCase):
     def setUp(self):
@@ -19,9 +21,28 @@ class BaseTest(unittest.TestCase):
         self.create_test_user()
 
     def tearDown(self):
-        # Close the browser
-        if self.driver:
-            self.driver.quit()
+        """Reset application state after each test"""
+        try:
+            # Handle any unexpected alerts
+            WebDriverWait(self.driver, 3).until(EC.alert_is_present())
+            alert = self.driver.switch_to.alert
+            alert.dismiss()
+            logging.info("Alert dismissed during teardown.")
+        except TimeoutException:
+            logging.info("No alert present during teardown.")
+
+        # Refresh the page to reset the DOM
+        self.driver.refresh()
+        logging.info("Page refreshed after test.")
+        
+        # Ensure we are on the dashboard
+        try:
+            self.wait_for_element(By.CLASS_NAME, "dashboard-title", timeout=10)
+            logging.info("Dashboard loaded after refresh.")
+        except TimeoutException:
+            logging.warning("Could not verify dashboard after teardown refresh.")
+
+
 
     def wait_for_element(self, by, value, timeout=10):
         try:

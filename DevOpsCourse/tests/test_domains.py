@@ -2,9 +2,11 @@ from test_base import BaseTest
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import UnexpectedAlertPresentException
+from selenium.common.exceptions import StaleElementReferenceException
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 import time
+import os
 from conftest import test_logger as logging
 
 class DomainManagementTests(BaseTest):
@@ -88,40 +90,80 @@ class DomainManagementTests(BaseTest):
             add_button.click()
             logging.info(f"Added test domain: {test_domain}")
             
-            time.sleep(2)  # Wait for domain to be added
+            # Wait for the domain to appear in the table
+            table = self.wait_for_element(By.CLASS_NAME, "domains-table")
+            domain_cells = table.find_elements(By.CLASS_NAME, "domain-name")
+            domain_found = any(cell.text == test_domain for cell in domain_cells)
+            if not domain_found:
+                self.fail("Domain did not appear in the table after addition.")
+            logging.info(f"Domain '{test_domain}' found in the table after addition.")
             
-            # Click delete button
+            # Click the delete button
             delete_button = self.wait_for_element(By.CLASS_NAME, "delete-button")
             delete_button.click()
             logging.info("Delete button clicked")
 
-            # Handle confirmation alert
+            # Handle the confirmation alert
             self.handle_alerts()
 
-            # Wait for table to update
-            logging.info("Waiting for table update after deletion")
-            WebDriverWait(self.driver, 10).until(
-                lambda driver: all(cell.text != test_domain for cell in driver.find_elements(By.CLASS_NAME, "domain-name")),
-                "Domain was not removed from the table"
-            )
-            logging.info("Table updated successfully")
-
-            # Verify that the domain was deleted
-            logging.info("Verifying domain deletion")
+            # Search the table for the domain to ensure it's not there anymore
             table = self.wait_for_element(By.CLASS_NAME, "domains-table")
             domain_cells = table.find_elements(By.CLASS_NAME, "domain-name")
-            
             domain_found = any(cell.text == test_domain for cell in domain_cells)
+            
             if domain_found:
-                logging.error("Domain still exists after deletion")
-                self.fail("Domain still in table after deletion") 
+                logging.error(f"Domain '{test_domain}' still exists in the table after deletion.")
+                self.fail("Domain was not removed from the table after deletion.")
             else:
-                logging.info("Domain successfully deleted")
+                logging.info(f"Domain '{test_domain}' successfully removed from the table.")
                 self.assertTrue(True)
                 
         except TimeoutException as e:
             logging.error(f"Failed to delete domain: {e}")
             self.fail("Could not complete domain deletion test")
+
+    def test_delete_domain(self):
+        """Test deleting a domain"""
+        logging.info("Starting delete domain test")
+        
+        try:
+            # Add a domain to delete
+            test_domain = "delete-test.com"
+            domain_field = self.wait_for_element(By.ID, "domainInput")
+            domain_field.send_keys(test_domain)
+            
+            add_button = self.wait_for_element(By.CLASS_NAME, "add-button")
+            add_button.click()
+            logging.info(f"Added test domain: {test_domain}")
+            
+            # Wait for the domain to appear in the table
+            table = self.wait_for_element(By.CLASS_NAME, "domains-table")
+            domain_cells = table.find_elements(By.CLASS_NAME, "domain-name")
+            domain_found = any(cell.text.strip() == test_domain for cell in domain_cells)
+            if not domain_found:
+                self.fail("Domain did not appear in the table after addition.")
+            logging.info(f"Domain '{test_domain}' found in the table after addition.")
+            
+            # Click the delete button
+            delete_button = self.wait_for_element(By.CLASS_NAME, "delete-button")
+            delete_button.click()
+            logging.info("Delete button clicked")
+
+            # Handle the confirmation alert
+            self.handle_alerts()
+
+            # Wait for the table to update
+            WebDriverWait(self.driver, 10).until(
+                lambda driver: all(cell.text.strip() != test_domain 
+                                for cell in driver.find_elements(By.CLASS_NAME, "domain-name")),
+                "Domain was not removed from the table after deletion."
+            )
+            logging.info(f"Domain '{test_domain}' successfully removed from the table.")
+
+        except TimeoutException as e:
+            logging.error(f"Failed to delete domain: {e}")
+            self.fail("Could not complete domain deletion test")
+
 
 
     def test_refresh_domains(self):
@@ -174,4 +216,61 @@ class DomainManagementTests(BaseTest):
         except TimeoutException as e:
             logging.error(f"Failed to refresh domains: {e}")
             self.fail("Could not complete domain refresh test")
-                
+    
+    
+    def test_file_upload(self):
+        """Test uploading domains from a file"""
+        logging.info("Starting file upload test")
+        
+        try:
+            # Create a test file with domains
+            test_file_path = os.path.join(os.path.dirname(__file__), "test_domains.txt")
+            test_domains = ["filetest1.com", "filetest2.com", "filetest3.com"]
+            
+            with open(test_file_path, "w") as f:
+                f.write("\n".join(test_domains))
+            logging.info("Created test domains file")
+            
+            # Upload the file
+            file_input = self.wait_for_element(By.ID, "file-upload")
+            file_input.send_keys(test_file_path)
+            logging.info("Uploaded test file")
+
+            #  Try to handle any alert that appears after file upload
+            try:
+                WebDriverWait(self.driver, 5).until(EC.alert_is_present())
+                alert = self.driver.switch_to.alert
+                logging.info(f"Alert text: {alert.text}")
+                alert.accept()
+                logging.info("Alert dismissed")
+            except TimeoutException:
+                logging.warning("No alert appeared after file upload")
+
+            # Add a delay to allow the table to update
+            time.sleep(2)
+            table = self.wait_for_element(By.CLASS_NAME, "domains-table")
+            domain_cells = table.find_elements(By.CLASS_NAME, "domain-name")
+            
+            # Check if any of the uploaded domains are in the table
+            domains_found = any(domain in cell.text for cell in domain_cells for domain in test_domains)
+            
+            if domains_found:
+                logging.info("Successfully verified uploaded domains in table")
+            else:
+                logging.error("Could not find uploaded domains in table")
+                self.fail("Uploaded domains not found in table")
+
+        except Exception as e:
+            logging.error(f"Unexpected error in file upload test: {e}")
+            self.fail(f"Unexpected error: {str(e)}")
+            
+        finally:
+            # Delete the test file
+            if os.path.exists(test_file_path):
+                os.remove(test_file_path)
+                logging.info("Cleaned up test file in finally block")
+
+
+if __name__ == "__main__":
+    import unittest
+    unittest.main()
