@@ -2,21 +2,18 @@ import unittest
 from test_auth import AuthenticationTests
 from test_domains import DomainManagementTests
 from test_scheduler import SchedulerTests
+from conftest import test_logger as logging
 
-def create_test_suite():
-    """Create a test suite containing all tests"""
+def run_all_tests():
     suite = unittest.TestSuite()
-    
-    # Add all test classes
     loader = unittest.TestLoader()
-    suite.addTests(loader.loadTestsFromTestCase(AuthenticationTests))
-    suite.addTests(loader.loadTestsFromTestCase(DomainManagementTests))
-    suite.addTests(loader.loadTestsFromTestCase(SchedulerTests))
     
-    return suite
+    test_cases = [AuthenticationTests, DomainManagementTests, SchedulerTests]
+    for test_case in test_cases:
+        suite.addTests(loader.loadTestsFromTestCase(test_case))
+    
+    runner = unittest.TextTestRunner(verbosity=2)
+    return runner.run(suite)
 
 if __name__ == '__main__':
-    # Run the test suite
-    suite = create_test_suite()
-    runner = unittest.TextTestRunner(verbosity=2)
-    runner.run(suite)
+    run_all_tests()
