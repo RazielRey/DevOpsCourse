@@ -4,21 +4,15 @@ from test_domains import DomainManagementTests
 from test_scheduler import SchedulerTests
 from conftest import test_logger as logging
 
-import unittest
-from test_auth import AuthenticationTests
-from test_domains import DomainManagementTests
-from test_scheduler import SchedulerTests
-from conftest import test_logger as logging
-
 def run_selected_tests():
     """Run only selected core tests"""
     # Create test suite
     suite = unittest.TestSuite()
     loader = unittest.TestLoader()
     
-    # Add only specific test methods
-    suite.addTest(AuthenticationTests('test_registration'))
-    suite.addTest(AuthenticationTests('test_login'))
+    # Add only specific test methods with correct names
+    suite.addTest(AuthenticationTests('test_registration_success') ) # Changed from test_registration
+    suite.addTest(AuthenticationTests('test_login_success'))      # Changed from test_login
     suite.addTest(DomainManagementTests('test_add_domain'))
     suite.addTest(DomainManagementTests('test_file_upload'))
     suite.addTest(SchedulerTests('test_hourly_schedule'))

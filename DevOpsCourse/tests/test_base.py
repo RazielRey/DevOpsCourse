@@ -89,3 +89,13 @@ class BaseTest(unittest.TestCase):
                 logging.error("Failed to create test user")
         except Exception as e:
             logging.error(f"Error creating test user: {e}")
+
+    def wait_for_element_clickable(self, by, value, timeout=10):
+        """Helper method to wait for element to be clickable"""
+        try:
+            return WebDriverWait(self.driver, timeout).until(
+                EC.element_to_be_clickable((by, value))
+            )
+        except Exception as e:
+            logging.error(f"Element not clickable: {by}={value}")
+            raise e

@@ -57,27 +57,47 @@ class SchedulerTests(BaseTest):
         logging.info("Starting hourly schedule test")
         
         try:
-            # Add a test domain first
-            self.test_add_domain()
+            # Add domain
+            domain_field = self.wait_for_element(By.ID, "domainInput")
+            test_domain = "scheduler-test.com"
+            domain_field.send_keys(test_domain)
+            logging.info(f"Domain entered: {test_domain}")
             
-            # Select hourly radio
-            hourly_radio = self.wait_for_element(By.CSS_SELECTOR, "input[value='hourly']")
-            hourly_radio.click()
+            add_button = self.wait_for_element(By.CLASS_NAME, "add-button")
+            add_button.click()
+            time.sleep(2)  # Wait for domain to be added
+
+            # Find the radio button's label and click it
+            schedule_label = self.wait_for_element(By.CSS_SELECTOR, "label.schedule-label")
+            hourly_radio = schedule_label.find_element(By.CSS_SELECTOR, "input[value='hourly']")
+            self.driver.execute_script("arguments[0].click();", hourly_radio)
             logging.info("Selected hourly schedule")
+
+            time.sleep(1)  # Wait for UI to update
 
             # Click start schedule
             start_button = self.wait_for_element(By.ID, "startSchedule")
-            start_button.click()
+            self.driver.execute_script("arguments[0].click();", start_button)
             logging.info("Started schedule")
+            
+            time.sleep(2)  # Wait for schedule to start
 
-            # Verify schedule is running (check next run time)
+            # Verify schedule
             next_run = self.wait_for_element(By.ID, "nextRunTime")
-            self.assertNotIn("Not scheduled", next_run.text)
+            actual_text = next_run.text
+            logging.info(f"Next run text: {actual_text}")
+            
+            # Check schedule started
+            self.assertTrue(
+                "Next check:" in actual_text and "Not scheduled" not in actual_text,
+                f"Schedule not started properly. Got text: {actual_text}"
+            )
             logging.info("Schedule verified running")
                 
-        except TimeoutException as e:
+        except Exception as e:
             logging.error(f"Failed to set hourly schedule: {e}")
             self.fail("Could not complete hourly schedule test")
+
 
     def test_stop_schedule(self):
         """Test stopping a schedule"""
