@@ -16,4 +16,5 @@ COPY . .
 # Install dependencies
 RUN pip install -r requirements.txt
 
-# Note: Don't include CMD here since you're using docker exec
+# Add a command to keep container running
+CMD ["tail", "-f", "/dev/null"]

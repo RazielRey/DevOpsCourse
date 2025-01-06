@@ -1,0 +1,135 @@
+{
+    "ReservationId": "r-00b7fcebad2c951ae",
+    "OwnerId": "034362048898",
+    "Groups": [],
+    "Instances": [
+        {
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [],
+            "ClientToken": "7e86f028-de7d-4b5b-a8d0-5f10d16ffb76",
+            "EbsOptimized": false,
+            "EnaSupport": true,
+            "Hypervisor": "xen",
+            "NetworkInterfaces": [
+                {
+                    "Attachment": {
+                        "AttachTime": "2025-01-06T11:58:23.000Z",
+                        "AttachmentId": "eni-attach-0d10e9496aefb9a10",
+                        "DeleteOnTermination": true,
+                        "DeviceIndex": 0,
+                        "Status": "attaching",
+                        "NetworkCardIndex": 0
+                    },
+                    "Description": "",
+                    "Groups": [
+                        {
+                            "GroupId": "sg-02b3d29bdcd49a0cc",
+                            "GroupName": "default"
+                        }
+                    ],
+                    "Ipv6Addresses": [],
+                    "MacAddress": "02:88:88:63:8d:bb",
+                    "NetworkInterfaceId": "eni-0aaff43971c2f08a5",
+                    "OwnerId": "034362048898",
+                    "PrivateDnsName": "ip-172-31-27-188.us-west-2.compute.internal",
+                    "PrivateIpAddress": "172.31.27.188",
+                    "PrivateIpAddresses": [
+                        {
+                            "Primary": true,
+                            "PrivateDnsName": "ip-172-31-27-188.us-west-2.compute.internal",
+                            "PrivateIpAddress": "172.31.27.188"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Status": "in-use",
+                    "SubnetId": "subnet-06d26c27601fa5b42",
+                    "VpcId": "vpc-0965807a75a0a2d42",
+                    "InterfaceType": "interface",
+                    "Operator": {
+                        "Managed": false
+                    }
+                }
+            ],
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+                {
+                    "GroupId": "sg-02b3d29bdcd49a0cc",
+                    "GroupName": "default"
+                }
+            ],
+            "SourceDestCheck": true,
+            "StateReason": {
+                "Code": "pending",
+                "Message": "pending"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "raziel_agent"
+                },
+                {
+                    "Key": "Purpose",
+                    "Value": "agent"
+                }
+            ],
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+                "CoreCount": 1,
+                "ThreadsPerCore": 1
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "open"
+            },
+            "MetadataOptions": {
+                "State": "pending",
+                "HttpTokens": "required",
+                "HttpPutResponseHopLimit": 2,
+                "HttpEndpoint": "enabled",
+                "HttpProtocolIpv6": "disabled",
+                "InstanceMetadataTags": "disabled"
+            },
+            "EnclaveOptions": {
+                "Enabled": false
+            },
+            "BootMode": "uefi-preferred",
+            "PrivateDnsNameOptions": {
+                "HostnameType": "ip-name",
+                "EnableResourceNameDnsARecord": false,
+                "EnableResourceNameDnsAAAARecord": false
+            },
+            "MaintenanceOptions": {
+                "AutoRecovery": "default"
+            },
+            "CurrentInstanceBootMode": "legacy-bios",
+            "Operator": {
+                "Managed": false
+            },
+            "InstanceId": "i-05ce6a131c3d243be",
+            "ImageId": "ami-05d38da78ce859165",
+            "State": {
+                "Code": 0,
+                "Name": "pending"
+            },
+            "PrivateDnsName": "ip-172-31-27-188.us-west-2.compute.internal",
+            "PublicDnsName": "",
+            "StateTransitionReason": "",
+            "KeyName": "int_aws",
+            "AmiLaunchIndex": 0,
+            "ProductCodes": [],
+            "InstanceType": "t2.micro",
+            "LaunchTime": "2025-01-06T11:58:23.000Z",
+            "Placement": {
+                "GroupName": "",
+                "Tenancy": "default",
+                "AvailabilityZone": "us-west-2a"
+            },
+            "Monitoring": {
+                "State": "disabled"
+            },
+            "SubnetId": "subnet-06d26c27601fa5b42",
+            "VpcId": "vpc-0965807a75a0a2d42",
+            "PrivateIpAddress": "172.31.27.188"
+        }
+    ]
+}
