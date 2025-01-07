@@ -109,6 +109,14 @@ def check_user_availability():
         return jsonify({'available': False, 'error': str(e)})
 
 
+@app.route('/logout')
+def logout():
+    """Logout route"""
+    session.clear()
+    return redirect("/")
+
+
+
 """
 ------------------------------
    routes for google login
