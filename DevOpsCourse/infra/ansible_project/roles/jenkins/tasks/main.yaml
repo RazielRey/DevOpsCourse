@@ -1,0 +1,107 @@
+---
+- name: Set Jenkins IP as a fact
+  set_fact:
+    jenkins_ip: "{{ ansible_host }}"
+
+- name: Install Docker
+  apt:
+    name: docker.io
+    state: present
+
+- name: Add ubuntu user to docker group
+  user:
+    name: ubuntu
+    groups: docker
+    append: yes
+
+- name: Create /var/jenkins_home
+  file:
+    path: /var/jenkins_home
+    state: directory
+
+- name: Add NFS export to fstab file
+  ansible.builtin.lineinfile:
+    path: /etc/fstab
+    line: "{{ nfs_ip }}:{{ export_directory }} /var/jenkins_home nfs defaults 0 0"
+
+- name: Apply mounts
+  shell: systemctl daemon-reload && mount -a
+
+- name: Set directory Permissions
+  shell: chown -R 1000:1000 /var/jenkins_home
+
+- name: Run Jenkins Container
+  docker_container:
+    name: jenkins
+    image: jenkins/jenkins
+    state: started
+    restart_policy: always
+    ports:
+      - "8080:8080"
+    volumes:
+      - /var/jenkins_home:/var/jenkins_home
+
+- name: Get Jenkins initial password
+  shell: cat /var/jenkins_home/secrets/initialAdminPassword
+  register: jenkins_password
+
+- name: Print Jenkins initial password
+  debug:
+    msg: "Jenkins initial password is {{ jenkins_password.stdout }}"
+
+- name: Wait for Jenkins to start up
+  uri:
+    url: "http://localhost:8080"
+    status_code: 200
+    timeout: 5
+  register: result
+  until: result.status == 200
+  retries: 60
+  delay: 5
+
+- name: Install Jenkins plugins
+  jenkins_plugin:
+    name: "{{ item }}"
+    url: "http://localhost:8080"
+    user: admin
+    password: "{{ jenkins_password.stdout }}"
+    state: present
+    validate_certs: no
+  with_items:   
+    - credentials-binding
+    - plain-credentials
+    - credentials
+    - blueocean
+    - workflow-aggregator  
+    - git
+    - docker-workflow
+    - ansible
+    - pipeline-stage-view
+    - pipeline-aws
+    - pipeline-utility-steps
+
+- name: Wait for plugin installation
+  pause:
+    seconds: 30
+
+- name: Create admin user with specific password
+  jenkins_script:
+    script: |
+      import jenkins.model.*
+      import hudson.security.*
+      
+      def instance = Jenkins.getInstance()
+      
+      def hudsonRealm = new HudsonPrivateSecurityRealm(false)
+      hudsonRealm.createAccount("admin", "admin")
+      instance.setSecurityRealm(hudsonRealm)
+      
+      def strategy = new FullControlOnceLoggedInAuthorizationStrategy()
+      strategy.setAllowAnonymousRead(false)
+      instance.setAuthorizationStrategy(strategy)
+      
+      instance.save()
+    url: "http://localhost:8080"
+    user: admin
+    password: "{{ jenkins_password.stdout }}"
+    validate_certs: no

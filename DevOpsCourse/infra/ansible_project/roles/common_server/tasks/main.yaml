@@ -1,0 +1,9 @@
+---
+- name: Update Apt Cache
+  apt:
+    update_cache: yes
+
+- name: Install nfs client
+  apt:
+    name: nfs-common
+    state: present

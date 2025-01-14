@@ -5,7 +5,7 @@ echo "Purpose: $PURPOSE"
 aws ec2 run-instances \
     --image-id ami-05d38da78ce859165  \
     --instance-type t2.micro \
-    --key-name int_aws \
+    --key-name MoniNordic \
     --security-group-ids sg-02b3d29bdcd49a0cc \
     --subnet-id subnet-06d26c27601fa5b42 \
     --count 1 \

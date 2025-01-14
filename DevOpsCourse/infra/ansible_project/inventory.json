@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "hostvars": {
+      "ec2-54-201-140-128.us-west-2.compute.amazonaws.com": {
+        "ansible_host": "54.201.140.128",
+        "instance_id": "i-07534524334ea04ae",
+        "private_ip": "172.31.25.169",
+        "public_ip": "54.201.140.128",
+        "tags": {
+          "Name": "raziel_jenkins",
+          "Purpose": "jenkins"
+        }
+      },
+      "ec2-54-149-126-185.us-west-2.compute.amazonaws.com": {
+        "ansible_host": "54.149.126.185",
+        "instance_id": "i-00d6025deb740b7b3",
+        "private_ip": "172.31.20.144",
+        "public_ip": "54.149.126.185",
+        "tags": {
+          "Purpose": "nfs",
+          "Name": "raziel_nfs"
+        }
+      }
+    }
+  },
+  "all": {
+    "children": [
+      "aws_ec2",
+      "ec2_jenkins",
+      "ec2_nfs"
+    ]
+  },
+  "aws_ec2": {
+    "hosts": [
+      "ec2-54-201-140-128.us-west-2.compute.amazonaws.com",
+      "ec2-54-149-126-185.us-west-2.compute.amazonaws.com"
+    ]
+  },
+  "ec2_jenkins": {
+    "hosts": [
+      "ec2-54-201-140-128.us-west-2.compute.amazonaws.com"
+    ]
+  },
+  "ec2_nfs": {
+    "hosts": [
+      "ec2-54-149-126-185.us-west-2.compute.amazonaws.com"
+    ]
+  }
+}

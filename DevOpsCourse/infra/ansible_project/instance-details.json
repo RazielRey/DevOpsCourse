@@ -1,20 +1,20 @@
 {
-    "ReservationId": "r-00b7fcebad2c951ae",
+    "ReservationId": "r-0aa33f698e81dc08e",
     "OwnerId": "034362048898",
     "Groups": [],
     "Instances": [
         {
             "Architecture": "x86_64",
             "BlockDeviceMappings": [],
-            "ClientToken": "7e86f028-de7d-4b5b-a8d0-5f10d16ffb76",
+            "ClientToken": "0140c3fc-5cfb-4968-9079-828cb9d23b7c",
             "EbsOptimized": false,
             "EnaSupport": true,
             "Hypervisor": "xen",
             "NetworkInterfaces": [
                 {
                     "Attachment": {
-                        "AttachTime": "2025-01-06T11:58:23.000Z",
-                        "AttachmentId": "eni-attach-0d10e9496aefb9a10",
+                        "AttachTime": "2025-01-09T07:27:17+00:00",
+                        "AttachmentId": "eni-attach-058529b788ef9ce67",
                         "DeleteOnTermination": true,
                         "DeviceIndex": 0,
                         "Status": "attaching",
@@ -28,16 +28,16 @@
                         }
                     ],
                     "Ipv6Addresses": [],
-                    "MacAddress": "02:88:88:63:8d:bb",
-                    "NetworkInterfaceId": "eni-0aaff43971c2f08a5",
+                    "MacAddress": "02:66:f5:1d:d5:cb",
+                    "NetworkInterfaceId": "eni-047e57d98e58ebcc8",
                     "OwnerId": "034362048898",
-                    "PrivateDnsName": "ip-172-31-27-188.us-west-2.compute.internal",
-                    "PrivateIpAddress": "172.31.27.188",
+                    "PrivateDnsName": "ip-172-31-30-68.us-west-2.compute.internal",
+                    "PrivateIpAddress": "172.31.30.68",
                     "PrivateIpAddresses": [
                         {
                             "Primary": true,
-                            "PrivateDnsName": "ip-172-31-27-188.us-west-2.compute.internal",
-                            "PrivateIpAddress": "172.31.27.188"
+                            "PrivateDnsName": "ip-172-31-30-68.us-west-2.compute.internal",
+                            "PrivateIpAddress": "172.31.30.68"
                         }
                     ],
                     "SourceDestCheck": true,
@@ -65,12 +65,12 @@
             },
             "Tags": [
                 {
-                    "Key": "Name",
-                    "Value": "raziel_agent"
+                    "Key": "Purpose",
+                    "Value": "nfs"
                 },
                 {
-                    "Key": "Purpose",
-                    "Value": "agent"
+                    "Key": "Name",
+                    "Value": "raziel_nfs"
                 }
             ],
             "VirtualizationType": "hvm",
@@ -105,20 +105,20 @@
             "Operator": {
                 "Managed": false
             },
-            "InstanceId": "i-05ce6a131c3d243be",
+            "InstanceId": "i-0d5fd5ef82e453731",
             "ImageId": "ami-05d38da78ce859165",
             "State": {
                 "Code": 0,
                 "Name": "pending"
             },
-            "PrivateDnsName": "ip-172-31-27-188.us-west-2.compute.internal",
+            "PrivateDnsName": "ip-172-31-30-68.us-west-2.compute.internal",
             "PublicDnsName": "",
             "StateTransitionReason": "",
-            "KeyName": "int_aws",
+            "KeyName": "MoniNordic",
             "AmiLaunchIndex": 0,
             "ProductCodes": [],
             "InstanceType": "t2.micro",
-            "LaunchTime": "2025-01-06T11:58:23.000Z",
+            "LaunchTime": "2025-01-09T07:27:17+00:00",
             "Placement": {
                 "GroupName": "",
                 "Tenancy": "default",
@@ -129,7 +129,7 @@
             },
             "SubnetId": "subnet-06d26c27601fa5b42",
             "VpcId": "vpc-0965807a75a0a2d42",
-            "PrivateIpAddress": "172.31.27.188"
+            "PrivateIpAddress": "172.31.30.68"
         }
     ]
 }
