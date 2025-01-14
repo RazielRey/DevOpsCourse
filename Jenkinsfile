@@ -24,11 +24,9 @@ pipeline {
                         fi
                         # Remove old images
                         sudo docker image prune -f
-                        # Create network or ignore if exists
-                        sudo docker network create test-network || true
                     """
                 }
-                echo 'Docker containers removed and network created'
+                echo 'Docker containers removed'
             }
         }
         
@@ -77,22 +75,17 @@ pipeline {
             steps {
                 script {
                     sh """
-                        # Create a new overlay network
-                        sudo docker network create --driver overlay test-network || true
-
-                        # Start Backend
-                        sudo docker run -d --network test-network \
+                        # Start Backend with host network
+                        sudo docker run -d --network host \
                             --name be-app-${BUILD_TAG} \
-                            --network-alias backend \
-                            -p 5001:5001 \
                             ${BE_IMAGE}:${BUILD_TAG}
                         
-                        # Start Frontend with link to Backend
-                        sudo docker run -d --network test-network \
+                        sleep 5
+                        
+                        # Start Frontend with host network
+                        sudo docker run -d --network host \
                             --name fe-app-${BUILD_TAG} \
-                            --network-alias frontend \
-                            -p 8080:8080 \
-                            -e BE_URL=http://backend:5001 \
+                            -e BACKEND_URL=http://localhost:5001 \
                             ${FE_IMAGE}:${BUILD_TAG}
                         
                         # Wait for services to be ready
@@ -116,7 +109,7 @@ pipeline {
                         echo "Checking container status:"
                         sudo docker ps
                         
-                        # Simple connection test to frontend
+                        # Simple connection test
                         for i in \$(seq 1 6); do
                             if curl -s http://localhost:8080 > /dev/null; then
                                 echo "Frontend is responding"
@@ -137,22 +130,16 @@ pipeline {
             steps {
                 script {
                     sh """
-                        # Start Selenium container
-                        sudo docker run --network test-network \
+                        # Start Selenium container with host network
+                        sudo docker run --network host \
                             -d \
                             --name selenium-test \
-                            --network-alias selenium \
-                            -e APP_URL=http://frontend:8080 \
+                            -e APP_URL=http://localhost:8080 \
                             -e WAIT_TIMEOUT=30 \
                             -e PYTHONUNBUFFERED=1 \
                             razielrey/selenium-tests:latest
                         
-                        # Wait for Selenium container to be ready
                         sleep 10
-                        
-                        # Print network info for debugging
-                        echo "Network Information:"
-                        sudo docker network inspect test-network
                         
                         # Run tests with output
                         if ! sudo docker exec selenium-test python3 -u run_tests.py; then
@@ -191,7 +178,6 @@ pipeline {
             sh """
                 # Clean up containers
                 sudo docker rm -f be-app-${BUILD_TAG} fe-app-${BUILD_TAG} selenium-test || true
-                sudo docker network rm test-network || true
                 
                 # Clean up dangling images
                 sudo docker image prune -f
