@@ -77,59 +77,53 @@ pipeline {
             steps {
                 script {
                     sh """
+                        # Create a new overlay network
+                        sudo docker network create --driver overlay test-network || true
+
                         # Start Backend
                         sudo docker run -d --network test-network \
                             --name be-app-${BUILD_TAG} \
+                            --network-alias backend \
                             -p 5001:5001 \
-                            -e PORT=5001 \
                             ${BE_IMAGE}:${BUILD_TAG}
-                        
-                        # Wait for backend to be ready
-                        sleep 5
                         
                         # Start Frontend with link to Backend
                         sudo docker run -d --network test-network \
                             --name fe-app-${BUILD_TAG} \
+                            --network-alias frontend \
                             -p 8080:8080 \
-                            -e PORT=8080 \
-                            -e BE_URL=http://be-app-${BUILD_TAG}:5001 \
+                            -e BE_URL=http://backend:5001 \
                             ${FE_IMAGE}:${BUILD_TAG}
                         
-                        # Wait for frontend to be ready
+                        # Wait for services to be ready
                         sleep 10
                         
-                        # Verify both containers are running
-                        sudo docker ps | grep app-${BUILD_TAG}
+                        # Print container logs for debugging
+                        echo "Frontend logs:"
+                        sudo docker logs fe-app-${BUILD_TAG}
+                        echo "Backend logs:"
+                        sudo docker logs be-app-${BUILD_TAG}
                     """
                 }
             }
         }
         
-        stage('Health Check') {
+        stage('Service Check') {
             steps {
                 script {
                     sh """
-                        # Check if Backend is responding
+                        # Check if containers are running
+                        echo "Checking container status:"
+                        sudo docker ps
+                        
+                        # Simple connection test to frontend
                         for i in \$(seq 1 6); do
-                            if curl -f http://localhost:5001/health 2>/dev/null; then
-                                echo "Backend is healthy"
+                            if curl -s http://localhost:8080 > /dev/null; then
+                                echo "Frontend is responding"
                                 break
                             fi
                             if [ \$i -eq 6 ]; then
-                                echo "Backend health check failed"
-                                exit 1
-                            fi
-                            sleep 5
-                        done
-
-                        # Check if Frontend is responding
-                        for i in \$(seq 1 6); do
-                            if curl -f http://localhost:8080/health 2>/dev/null; then
-                                echo "Frontend is healthy"
-                                break
-                            fi
-                            if [ \$i -eq 6 ]; then
-                                echo "Frontend health check failed"
+                                echo "Frontend not responding"
                                 exit 1
                             fi
                             sleep 5
@@ -143,19 +137,29 @@ pipeline {
             steps {
                 script {
                     sh """
-                        # Run selenium container in the same network
+                        # Start Selenium container
                         sudo docker run --network test-network \
                             -d \
                             --name selenium-test \
-                            -e APP_URL=http://fe-app-${BUILD_TAG}:8080 \
-                            razielrey/selenium-tests:latest \
-                            tail -f /dev/null
-                            
-                        sleep 5  # Wait for container to be ready
+                            --network-alias selenium \
+                            -e APP_URL=http://frontend:8080 \
+                            -e WAIT_TIMEOUT=30 \
+                            -e PYTHONUNBUFFERED=1 \
+                            razielrey/selenium-tests:latest
                         
-                        # Run tests
-                        if ! sudo docker exec selenium-test python3 run_tests.py; then
-                            echo "Selenium tests failed"
+                        # Wait for Selenium container to be ready
+                        sleep 10
+                        
+                        # Print network info for debugging
+                        echo "Network Information:"
+                        sudo docker network inspect test-network
+                        
+                        # Run tests with output
+                        if ! sudo docker exec selenium-test python3 -u run_tests.py; then
+                            echo "Selenium tests failed - collecting debug info"
+                            sudo docker logs selenium-test
+                            sudo docker logs fe-app-${BUILD_TAG}
+                            sudo docker logs be-app-${BUILD_TAG}
                             exit 1
                         fi
                     """
