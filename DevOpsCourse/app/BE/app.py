@@ -251,6 +251,10 @@ def stop_schedule():
             "status": "error",
             "message": str(e)
         }), 500
+    
+@app.route('/health')
+def health():
+    return jsonify({"status": "healthy"}), 200
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5001)
